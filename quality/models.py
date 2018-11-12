@@ -57,5 +57,19 @@ class SubstitutProduct(models.Model):
     def __str__(self):
         return self.name
 
+class Product(models.Model):
+    name = models.CharField(max_length=250)
+    url = models.URLField()
+    img = models.URLField()
+    n_grade = models.CharField(max_length=2)
+    category = models.CharField(max_length=250)
+    img_nutrition = models.URLField(default='0000000')
+    store = models.CharField(max_length=250 , default='0000000')
+
+    class Meta:
+        verbose_name = "product"
+
+    def __str__(self):
+        return self.name
 
 

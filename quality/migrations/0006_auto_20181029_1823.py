@@ -30,4 +30,4 @@ class Migration(migrations.Migration):
             name='name',
             field=models.CharField(max_length=250),
         ),
-    ]
+]

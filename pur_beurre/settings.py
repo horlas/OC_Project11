@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'pur_beurre.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'pur_beurre',
+        'NAME': 'quality',
         'USER': 'aurelia',
         'PASSWORD': '',
         'HOST': '',

@@ -26,12 +26,12 @@ if __name__ == "__main__":
 
 
     # Add this 5 line above
-
-    execute_from_command_line(sys.argv)
-
-    # and add this 4 line below
-
-    if is_testing:
-        cov.stop()
-        cov.save()
-        cov.report()
+    #
+    # execute_from_command_line(sys.argv)
+    #
+    # # and add this 4 line below
+    #
+    # if is_testing:
+    #     cov.stop()
+    #     cov.save()
+    #     cov.report()

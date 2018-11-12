@@ -22,3 +22,7 @@ class SubstitutProductAdmin(admin.ModelAdmin):
 
 
 
+@admin.register(Product)
+class SubstitutProductAdmin(admin.ModelAdmin):
+    model = SubstitutProduct
+    verbose_name = 'Table produit'
