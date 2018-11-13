@@ -6,7 +6,7 @@ from .models import *
 class BackupAdmin(admin.ModelAdmin):
    model = Backup
    verbose_name = 'Sauvegarde'
-
+   list_per_page = 50
 
 # @admin.register(SelectedProduct)
 # class SelectedProductAdmin(admin.ModelAdmin):
@@ -19,10 +19,17 @@ class BackupAdmin(admin.ModelAdmin):
 class SubstitutProductAdmin(admin.ModelAdmin):
     model = SubstitutProduct
     verbose_name = 'Produit substitué'
-
+    list_per_page = 50
+    ordering = ['-id']
+    search_fields = ['name']
 
 
 @admin.register(Product)
-class SubstitutProductAdmin(admin.ModelAdmin):
-    model = SubstitutProduct
+class ProductAdmin(admin.ModelAdmin):
+    model = Product
     verbose_name = 'Table produit'
+    list_per_page = 50
+    ordering = ['-id']
+    search_fields = ['name']
+
+

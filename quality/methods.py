@@ -39,21 +39,58 @@ def request_off(cat, ns):
 def data_process(products):
     '''function which keeps only data we need from the OpenFood Facts return
     we extract the first product'''
+
+    # removal of products without category
+    result = []
+    for i, e in enumerate(products):
+        try:
+            test1 = e['categories']
+        except KeyError:
+            result.append(products[i])
+
+        # removal of products without name
+        try:
+            test2 = e['product_name']
+        except KeyError:
+            result.append(products[i])
+
+        # removal of products without image
+        try:
+            test3 = e['image_front_url']
+        except KeyError:
+            result.append(products[i])
+
+    products = [x for x in products if x not in result]
+    # # we return a list that does not exceed 6 items
+    # # otherwise it is equal to the list of returned products
+
+    products = products[:6]
+
+    # processing of product names
+    # in some case product_names have () or, inside
+    # which prevents the correct operation of the rest of the program
+    for i, e in enumerate(products):
+        print(e['product_name'])                                # len(list) in case length list < 6
+        m1 = re.search('(\,.*?$)', e['product_name'])
+        if m1 is not None:
+            print('Yes')
+            e['product_name'] = e['product_name'].replace(m1.group(0), '')
+
+        m2 = re.search('(\(.*?$)', e['product_name'])
+        if m2 is not None:
+            e['product_name'] = e['product_name'].replace(m2.group(0), '')
+
+    print(len(products))
+
+    # finally we extract only useful data
     list = []
 
-    # we return a list that does not exceed 6 items
-    # otherwise it is equal to the list of returned products
-    if len(products) < 6:
-        a = len(products)
-    else:
-        a = 6
-
-    for i in range(a):
+    for i in range(len(products)):
 
         dict = {
-            "name": products[i].get('product_name', 'Non renseigné'),
+            "name": products[i]['product_name'],
             "n_grade": products[i].get('nutrition_grades', 'NC').upper(),
-            "img": products[i].get('image_front_url', 'image_ingredients_small_url'),
+            "img": products[i]['image_front_url'],
 
             # keep the last category the most significant
             "category": products[i]['categories'].split(',')[-1],
@@ -63,19 +100,6 @@ def data_process(products):
         }
         list.append(dict)
 
-    # processing of product names
-    # in some case product_names have () or, inside
-    # which prevents the correct operation of the rest of the program
-    for i in range(len(list)):     # len(list) in case lenght list < 6
-        m1 = re.search('(\,.*?$)', list[i]['name'])
-        if m1 is not None:
-            list[i]['name'] = list[i]['name'].replace(m1.group(0), '')
-
-        m2 = re.search('(\(.*?$)', list[i]['name'])
-        if m2 is not None:
-            list[i]['name'] = list[i]['name'].replace(m2.group(0), '')
-
-
     return list
 
 def query_off(query):
@@ -84,7 +108,7 @@ def query_off(query):
     url = "https://fr.openfoodfacts.org/cgi/search.pl?search_terms={}&search_simple=1&action=process&json=1".format(query)
     response = requests.get(url)
     result = response.json()
-    products = result['products']
+    products = result['products'][:20]
     return data_process(products)
 
 def best_substitut(cat):
@@ -106,6 +130,6 @@ if __name__ == '__main__':
     # print(len(data), data[0]['img_nutrition'], data[5]['nutriscore'], data)
 
     #
-    query = 'Pesto'
+    query = 'pesto'
     data = query_off(query)
     print(data)
