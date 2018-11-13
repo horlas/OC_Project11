@@ -169,12 +169,6 @@ section.product {
     text-align: center;
 }
 
-
-/*.col-centered {*/
-    /*display: inline-block;*/
-    /*float: none;*/
-/*}*/
-
 /*to display notification badge*/
 .item {
     position:relative;

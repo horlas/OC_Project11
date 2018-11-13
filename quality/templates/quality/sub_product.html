@@ -25,21 +25,30 @@
    <div  class="container my-auto">
       {% if user.is_authenticated %}
       <h3 class="custom_title pb-3"> Vous pouvez remplacer ce produit par : </h3>
+
+
+  <div class="row">
+  <div class="col-lg-8 mx-auto text-center">
+  <hr class="my-4">
+  <p class="mb-5"> Ces choix proviennent de notre base de données Pur_beurre</p>
+  </div>
+  </div>
+
       <div class="row">
-         {% for dict_item in data %}
+         {% for dict_item in data_quality %}
          <div class="col-xl-4 px-xl-5 col-lg-4 col-md-5 col-sm-6 col-xs-10 mx-auto text-center">
             <form action="{% url 'quality:user_choice' %}" method="GET">
                <div class="item">
 
-                  <span class="notify-badge good-product" >{{dict_item.nutriscore}}</span>
-                  <img class="product_img img-fluid rounded"  src="{{dict_item.img}}" alt="{{dict_item.product_name}}" >
+                  <span class="notify-badge good-product" >{{dict_item.n_grade}}</span>
+                  <img class="product_img img-fluid rounded"  src="{{dict_item.img}}" alt="{{dict_item.name}}" >
 
                </div>
                <div class="carousel-caption mb-5 ">
-                  <h5 class="custom-color ">{{dict_item.product_name}}</h5>
+                  <h5 class="custom-color ">{{dict_item.name}}</h5>
                </div>
                <button type="submit" class="btn btn-outline-light text-icone mt-3 " name="subscribe"
-                       value="{{dict_item.product_name}}, {{dict_item.category}}, {{dict_item.img}}, {{dict_item.nutriscore}}, {{dict_item.url}}, {{dict_item.img_nutrition}}, {{dict_item.magasins}}">
+                       value="{{dict_item.name}}, {{dict_item.category}}, {{dict_item.img}}, {{dict_item.n_grade}}, {{dict_item.url}}, {{dict_item.img_nutrition}}, {{dict_item.store}}">
                <i class="fas fa-save fa-2x text-icone sr-save-1 "></i>
                Sauvegarder
                </button>
@@ -47,6 +56,38 @@
          </div>
          {% endfor %}
       </div>
+
+    <div class="row">
+  <div class="col-lg-8 mx-auto text-center">
+  <hr class="my-4">
+  <p class="mb-5"> Ces choix proviennent de Open Food Facts</p>
+  </div>
+  </div>
+
+   <div class="row">
+         {% for dict_item in data_off %}
+         <div class="col-xl-4 px-xl-5 col-lg-4 col-md-5 col-sm-6 col-xs-10 mx-auto text-center">
+            <form action="{% url 'quality:user_choice' %}" method="GET">
+               <div class="item">
+
+                  <span class="notify-badge good-product" >{{dict_item.n_grade}}</span>
+                  <img class="product_img img-fluid rounded"  src="{{dict_item.img}}" alt="{{dict_item.name}}" >
+
+               </div>
+               <div class="carousel-caption mb-5 ">
+                  <h5 class="custom-color ">{{dict_item.name}}</h5>
+               </div>
+               <button type="submit" class="btn btn-outline-light text-icone mt-3 " name="subscribe"
+                       value="{{dict_item.name}}, {{dict_item.category}}, {{dict_item.img}}, {{dict_item.n_grade}}, {{dict_item.url}}, {{dict_item.img_nutrition}}, {{dict_item.store}}">
+               <i class="fas fa-save fa-2x text-icone sr-save-1 "></i>
+               Sauvegarder
+               </button>
+            </form>
+         </div>
+         {% endfor %}
+      </div>
+
+
    </div>
    {% else %}
    <div class="row">
@@ -61,27 +102,56 @@
             <button class="login-btn btn btn-primary" type="button" name="button">Se connecter</button>
          </div>
          <hr class="my-4">
+          <p class="mb-5"> Ces choix proviennent de notre base de données Pur_beurre</p>
       </div>
    </div>
    <div class="row">
-      {% for dict_item in data %}
+      {% for dict_item in data_quality %}
       <div class="col-xl-4 px-xl-5 col-lg-4 col-md-5 col-sm-6 col-xs-10 mx-auto text-center">
          <form action="#" >
             <div class="item">
 
-               <span class="notify-badge good-product" >{{dict_item.nutriscore}}</span>
-               <img class="product_img img-fluid rounded"  src="{{dict_item.img}}" alt="{{dict_item.product_name}}" >
+               <span class="notify-badge good-product" >{{dict_item.n_grade}}</span>
+               <img class="product_img img-fluid rounded"  src="{{dict_item.img}}" alt="{{dict_item.name}}" >
 
             </div>
             <div class="carousel-caption mb-2 ">
-               <h5 class="custom-color ">{{dict_item.product_name}}</h5>
+               <h5 class="custom-color ">{{dict_item.name}}</h5>
             </div>
          </form>
       </div>
       {% endfor %}
    </div>
+
+  <div class="row">
+  <div class="col-lg-8 mx-auto text-center">
+  <hr class="my-4">
+  <p class="mb-5"> Ces choix proviennent de Open Food Facts</p>
+  </div>
+  </div>
+
+   <div class="row">
+  {% for dict_item in data_off %}
+  <div class="col-xl-4 px-xl-5 col-lg-4 col-md-5 col-sm-6 col-xs-10 mx-auto text-center">
+     <form action="#" >
+        <div class="item">
+
+           <span class="notify-badge good-product" >{{dict_item.n_grade}}</span>
+           <img class="product_img img-fluid rounded"  src="{{dict_item.img}}" alt="{{dict_item.name}}" >
+
+        </div>
+        <div class="carousel-caption mb-2 ">
+           <h5 class="custom-color ">{{dict_item.name}}</h5>
+        </div>
+     </form>
+  </div>
+  {% endfor %}
+</div>
+
+
+
+
    {% endif %}
-   </div>
-   </div>
+
 </section>
 {% endblock %}

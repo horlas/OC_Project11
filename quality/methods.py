@@ -1,18 +1,6 @@
 import requests
 import re
-import os
-import sys
-import json
-from collections import OrderedDict
-from pathlib import Path # if you haven't already done so
-file = Path(__file__).resolve()
-parent, root = file.parent, file.parents[1]
-sys.path.append(str(root))
-# Additionally remove the current file's directory from sys.path
-try:
-    sys.path.remove(str(parent))
-except ValueError: # Already removed
-    pass
+
 
 
 #test integration test
@@ -23,11 +11,9 @@ def is_even(nbr):
     return nbr % 2 == 0
 
 
-#########Functions to create fixtures########
 
-def request_off(cat):
-    ''' function which calls Openfoodfacts and return only the list of the products dictionnary.
-    We only get the first sixty products.'''
+def request_off(cat, ns):
+    '''look for a substitute in the same category as the selected product'''
 
     url_begin = "https://fr.openfoodfacts.org/cgi/search.pl?"
     payload = {
@@ -37,22 +23,32 @@ def request_off(cat):
          'tag_0' : cat,
          'tagtype_1' : 'nutrition_grades',
          'tag_contains_1' : 'contains',
+         'tag_1' : ns,
          'sort_by' : 'unique_scans_n',
-         'page_size' : '60',
+         'page_size' : '20',
          'axis_x' : 'energy',
          'axis_y' : 'product_n',
 
          'json' : '1',
      }
-    response = requests.get(url_begin , params=payload)
+
+    response = requests.get(url_begin, params=payload)
     result = response.json()
-    return result['products']
+    return result['products'] # = a list of dictionaries
 
 def data_process(products):
-    '''function which keeps only data we need from the OpenFood Facts return'''
+    '''function which keeps only data we need from the OpenFood Facts return
+    we extract the first product'''
     list = []
 
-    for i in range(len(products)):
+    # we return a list that does not exceed 6 items
+    # otherwise it is equal to the list of returned products
+    if len(products) < 6:
+        a = len(products)
+    else:
+        a = 6
+
+    for i in range(a):
 
         dict = {
             "name": products[i].get('product_name', 'Non renseigné'),
@@ -66,7 +62,6 @@ def data_process(products):
             "store": products[i].get('stores', 'Non renseigné')
         }
         list.append(dict)
-
 
     # processing of product names
     # in some case product_names have () or, inside
@@ -82,25 +77,6 @@ def data_process(products):
 
 
     return list
-
-
-def fill_database(categories):
-    '''function which write a file with processed data'''
-    list = []
-    #import category and products
-    for category in categories:
-        products = request_off(category)
-        products = data_process(products)
-        #build the data in json format
-
-        for i, e in enumerate(products):
-            dict = OrderedDict([("model","quality.product"), ("fields", e)])
-            list.append(dict)
-        print("Import de la catégorie {}, {} produits".format(category, len(products)))
-    list = json.dumps(list, indent=4, separators=(',', ': '), ensure_ascii=False)
-    with open("fixtures/dugras_data.json", "a") as file:
-        file.write(list)
-
 
 def query_off(query):
     '''inport the first six products from Openfoodfacts to give choice to the user'''
@@ -121,16 +97,15 @@ def best_substitut(cat):
             res = request_off(cat, ns)
             for dict in res:
                 list.append(dict)
-    return data_process(list)
+    return data_process(list)[:3]
 
 if __name__ == '__main__':
-    categories = ['Pâtes à tartiner aux noisettes et au cacao','Mousses lactées', 'Céréales au chocolat', 'Pizzas au jambon', 'Plats préparés surgelés', "Chips à l'ancienne", 'Purées de pommes de terre', 'Margarines allégées']
-    # categories = ["Pâtes à tartiner aux noisettes et au cacao"]
-    fill_database(categories)
-
-    # list = query_off("pizza")
-    # print(list[0]['category'])
+    #
+    # cat = 'Sauces Pesto'
+    # data = best_substitut(cat)
+    # print(len(data), data[0]['img_nutrition'], data[5]['nutriscore'], data)
 
     #
-    # cat = 'Pâtes à tartiner aux noisettes et au cacao'
-    # best_substitute(cat)
+    query = 'Pesto'
+    data = query_off(query)
+    print(data)

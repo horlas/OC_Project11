@@ -8,10 +8,10 @@ class BackupAdmin(admin.ModelAdmin):
    verbose_name = 'Sauvegarde'
 
 
-@admin.register(SelectedProduct)
-class SelectedProductAdmin(admin.ModelAdmin):
-    model = SelectedProduct
-    verbose_name = 'Produit selectionné'
+# @admin.register(SelectedProduct)
+# class SelectedProductAdmin(admin.ModelAdmin):
+#     model = SelectedProduct
+#     verbose_name = 'Produit selectionné'
 
 
 
