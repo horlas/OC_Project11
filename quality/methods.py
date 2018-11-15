@@ -70,17 +70,17 @@ def data_process(products):
     # in some case product_names have () or, inside
     # which prevents the correct operation of the rest of the program
     for i, e in enumerate(products):
-        print(e['product_name'])                                # len(list) in case length list < 6
+
         m1 = re.search('(\,.*?$)', e['product_name'])
         if m1 is not None:
-            print('Yes')
+
             e['product_name'] = e['product_name'].replace(m1.group(0), '')
 
         m2 = re.search('(\(.*?$)', e['product_name'])
         if m2 is not None:
             e['product_name'] = e['product_name'].replace(m2.group(0), '')
 
-    print(len(products))
+
 
     # finally we extract only useful data
     list = []
@@ -130,6 +130,6 @@ if __name__ == '__main__':
     # print(len(data), data[0]['img_nutrition'], data[5]['nutriscore'], data)
 
     #
-    query = 'pesto'
+    query = 'nutella'
     data = query_off(query)
     print(data)

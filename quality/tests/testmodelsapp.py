@@ -1,12 +1,12 @@
 from django.test import TestCase
-from quality.models import SelectedProduct, Backup, SubstitutProduct
+from quality.models import Product, Backup, SubstitutProduct
 from django.apps import apps
 from quality.apps import QualityConfig
 
 
-class SelectedProductModelTest(TestCase):
+class ProductModelTest(TestCase):
     def test_string_representation(self):
-        product = SelectedProduct(name='Nutella')
+        product = Product(name='Nutella')
         self.assertEqual(str(product), product.name)
 
 class BackupModelTest(TestCase):

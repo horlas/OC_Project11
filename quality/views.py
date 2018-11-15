@@ -40,8 +40,6 @@ def query_data(request):
 
         # we ask quality database
         data_quality = Product.objects.filter(name__icontains=query)[:6]
-        print('Yes')
-
         if len(data_quality) == 6:
             context = {
                 'title': title ,

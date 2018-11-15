@@ -3,6 +3,7 @@ import re
 import sys
 import json
 from collections import OrderedDict
+
 from pathlib import Path # if you haven't already done so
 file = Path(__file__).resolve()
 parent, root = file.parent, file.parents[1]
@@ -14,12 +15,6 @@ except ValueError: # Already removed
     pass
 
 
-#test integration test
-def is_even(nbr):
-    """
-        Cette fonction teste si un nombre est pair.
-        """
-    return nbr % 2 == 0
 
 
 #########Functions to create fixtures########
@@ -49,6 +44,45 @@ def request_off(cat):
 
 def data_process(products):
     '''function which keeps only data we need from the OpenFood Facts return'''
+
+
+    # removal of products without category
+    result = []
+    for i, e in enumerate(products):
+        try:
+            test1 = e['categories']
+        except KeyError:
+            result.append(products[i])
+
+        # removal of products without name
+        try:
+            test2 = e['product_name']
+        except KeyError:
+            result.append(products[i])
+
+        # removal of products without image
+        try:
+            test3 = e['image_front_url']
+        except KeyError:
+            result.append(products[i])
+
+    products = [x for x in products if x not in result]
+
+    # processing of product names
+    # in some case product_names have () or, inside
+    # which prevents the correct operation of the rest of the program
+    for i, e in enumerate(products):
+                              # len(list) in case length list < 6
+        m1 = re.search('(\,.*?$)', e['product_name'])
+        if m1 is not None:
+
+            e['product_name'] = e['product_name'].replace(m1.group(0), '')
+
+        m2 = re.search('(\(.*?$)', e['product_name'])
+        if m2 is not None:
+            e['product_name'] = e['product_name'].replace(m2.group(0), '')
+
+
     list = []
 
     for i in range(len(products)):
