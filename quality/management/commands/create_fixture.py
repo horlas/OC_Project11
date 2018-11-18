@@ -113,33 +113,32 @@ def data_process(products):
         if m2 is not None:
             list[i]['name'] = list[i]['name'].replace(m2.group(0), '')
 
-
     return list
 
 
-def fill_database(categories):
+def fill_database(category):
     '''function which write a file with processed data'''
     list = []
     #import category and products
-    for category in categories:
-        products = request_off(category)
-        products = data_process(products)
-        #build the data in json format
+    products = request_off(category)
+    products = data_process(products)
+    #build the data in json format
 
-        for i, e in enumerate(products):
-            dict = OrderedDict([("model","quality.product"), ("fields", e)])
-            list.append(dict)
-        print("Import de la catégorie {}, {} produits".format(category, len(products)))
+    for i, e in enumerate(products):
+        dict = OrderedDict([("model", "quality.product"), ("fields", e)])
+        list.append(dict)
+    print("Import de la catégorie {}, {} produits".format(category, len(products)))
     list = json.dumps(list, indent=4, separators=(',', ': '), ensure_ascii=False)
-    with open("fixtures/dugras_data.json", "a") as file:
+    with open("quality/fixtures/dugras_data.json", "w") as file:
         file.write(list)
+    return len(products)
 
 
 
-if __name__ == '__main__':
-    categories = ['Pâtes à tartiner aux noisettes et au cacao','Mousses lactées', 'Céréales au chocolat', 'Pizzas au jambon', 'Plats préparés surgelés', "Chips à l'ancienne", 'Purées de pommes de terre', 'Margarines allégées']
-    # categories = ["Pâtes à tartiner aux noisettes et au cacao"]
-    fill_database(categories)
+# if __name__ == '__main__':
+#     categories = ['Pâtes à tartiner aux noisettes et au cacao',3254560072930, 'Pizzas au jambon', 'Plats préparés surgelés', "Chips à l'ancienne", 'Purées de pommes de terre', 'Margarines allégées']
+#     # categories = ["Pâtes à tartiner aux noisettes et au cacao"]
+#     fill_database(categories)
 
     # list = query_off("pizza")
     # print(list[0]['category'])
@@ -147,3 +146,22 @@ if __name__ == '__main__':
     #
     # cat = 'Pâtes à tartiner aux noisettes et au cacao'
     # best_substitute(cat)
+
+
+# def fill_database(categories):
+#     '''function which write a file with processed data'''
+#     list = []
+#     #import category and products
+#     for category in categories:
+#         products = request_off(category)
+#         products = data_process(products)
+#         #build the data in json format
+#
+#         for i, e in enumerate(products):
+#             dict = OrderedDict([("model", "quality.product"), ("fields", e)])
+#             list.append(dict)
+#         print("Import de la catégorie {}, {} produits".format(category, len(products)))
+#     list = json.dumps(list, indent=4, separators=(',', ': '), ensure_ascii=False)
+#     with open("quality/fixtures/dugras_data.json", "w") as file:
+#         file.write(list)
+
