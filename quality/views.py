@@ -118,7 +118,7 @@ def user_choice(request):
 
     # check if selected product is already in database with the url entry
     try:
-        p_selected = Product.objects.get(url = request.session['selected_url'])
+        p_selected = Product.objects.get(url=request.session['selected_url'])
     except Product.DoesNotExist:
         # then we enrich the database
         # record selected product in database
@@ -189,7 +189,7 @@ def food(request):
     user = request.user
 
     # request inner join on selectedproduct/Backup/substitutproduct
-    sel_product_list = Product.objects.filter(backup__user_id=user.id, substitutproduct__user_id=user.id).order_by('id')
+    sel_product_list = Product.objects.filter(backup__user_id=user.id, substitutproduct__user_id=user.id).order_by()
     sub_product_list = SubstitutProduct.objects.filter(user_id=user.id).order_by('id')
     # Slice pages
     paginator0 = Paginator(sel_product_list, 1)

@@ -2,721 +2,589 @@
     {
         "model": "quality.product",
         "fields": {
-            "name": "Pizza surgelée Jambon Speck Roquette Mozzarella",
-            "store": "Picard",
-            "category": "Pizzas au jambon",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/071/7323/front_fr.27.400.jpg",
+            "url": "https://fr.openfoodfacts.org/produit/7613035147287/mousline-au-lait-entier-maggi",
+            "img": "https://static.openfoodfacts.org/images/products/761/303/514/7287/front_fr.21.400.jpg",
+            "store": "Magasins U",
             "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160717323/pizza-surgelee-jambon-speck-roquette-mozzarella-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/071/7323/nutrition_fr.29.400.jpg"
+            "category": [
+                "Aliments et boissons à base de végétaux"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/303/514/7287/nutrition_fr.16.400.jpg",
+            "name": "Mousline au lait entier"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Four à Pierre Royale",
-            "store": "Auchan,Franprix,Leclerc",
-            "category": "Pizzas tartes salées et quiches",
-            "img": "https://static.openfoodfacts.org/images/products/761/303/438/3808/front_fr.8.400.jpg",
-            "n_grade": "C",
-            "url": "https://fr.openfoodfacts.org/produit/7613034383808/four-a-pierre-royale-buitoni",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/303/438/3808/nutrition_fr.39.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Pizza Ristorante Quattro Formaggi",
-            "store": "Dia,Woolworths,Coles,Intermarché,Magasins U",
-            "category": "Pizzas tartes salées et quiches",
-            "img": "https://static.openfoodfacts.org/images/products/400/172/481/8908/front_fr.62.400.jpg",
-            "n_grade": "D",
-            "url": "https://fr.openfoodfacts.org/produit/4001724818908/pizza-ristorante-quattro-formaggi-dr-oetker",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/400/172/481/8908/nutrition_fr.71.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Poulet Au Curry Et Au Lait De Coco",
-            "store": "Picard",
-            "category": "Poulets au curry",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/081/2936/front_fr.5.400.jpg",
-            "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160812936/poulet-au-curry-et-au-lait-de-coco-duo-de-riz-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/081/2936/nutrition_fr.18.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Manchons de poulets rôti surgelés",
-            "store": "Picard",
-            "category": " en:chicken-drumsticks",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/016/7395/front_fr.3.400.jpg",
-            "n_grade": "D",
-            "url": "https://fr.openfoodfacts.org/produit/3270160167395/manchons-de-poulets-roti-surgeles-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/016/7395/nutrition_fr.13.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Four à pierre",
-            "store": "Monoprix",
-            "category": "Plats préparés surgelés",
-            "img": "https://static.openfoodfacts.org/images/products/761/303/226/1825/front_fr.5.400.jpg",
-            "n_grade": "D",
-            "url": "https://fr.openfoodfacts.org/produit/7613032261825/four-a-pierre-authentique-pate-a-pizza-buitoni",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/303/226/1825/nutrition_fr.7.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "8 portions panées de Colin d'Alaska",
-            "store": "Picard",
-            "category": "Breaded Hake fish",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/019/6876/front_fr.13.400.jpg",
-            "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160196876/8-portions-panees-de-colin-d-alaska-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/019/6876/nutrition_fr.9.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Poêlée à la forestière",
-            "store": "Picard",
-            "category": "Poêlées",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/059/2173/front_fr.14.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160592173/poelee-a-la-forestiere-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/059/2173/nutrition_fr.13.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "2 galettes au sarrasin tomates mozzarella basilic",
-            "store": "Picard",
-            "category": "Galettes préparées",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/083/7380/front_fr.7.400.jpg",
-            "n_grade": "C",
-            "url": "https://fr.openfoodfacts.org/produit/3270160837380/2-galettes-au-sarrasin-tomates-mozzarella-basilic-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/083/7380/nutrition_fr.10.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Ratatouille Cuisinée",
-            "store": "Picard",
-            "category": "Ratatouilles",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/011/4382/front_fr.12.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160114382/ratatouille-cuisinee-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/011/4382/nutrition_fr.17.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Poulet façon fajitas et riz aux épices",
-            "store": "",
-            "category": "Plats préparés à réchauffer au micro-onde",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/086/0241/front_fr.3.400.jpg",
-            "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160860241/poulet-facon-fajitas-et-riz-aux-epices-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/086/0241/nutrition_fr.9.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "16 Mini-Mems ",
-            "store": "Picard",
-            "category": "Plats à base de poulet",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/072/7315/front_fr.26.400.jpg",
-            "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160727315/16-mini-mems-poulet-menthe-legumes-coriandre-cuisine-evasion",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/072/7315/nutrition_fr.14.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Nuggets de Blanc de Poulet surgelés - 300 g - U",
-            "store": "Super U, Magasins U",
-            "category": "Plats préparés",
-            "img": "https://static.openfoodfacts.org/images/products/325/622/026/9254/front_fr.17.400.jpg",
-            "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3256220269254/nuggets-de-blanc-de-poulet-surgeles-300-g-u",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/622/026/9254/nutrition_fr.10.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Potage mélange de légumes",
-            "store": "Picard",
-            "category": "Soupes de légumes surgelées",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/006/6094/front_fr.9.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160066094/potage-melange-de-legumes-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/006/6094/nutrition_fr.17.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Tagliatelles aux Truffes Blanches et Champignons de Paris",
-            "store": "Picard",
-            "category": "Plats préparés à base de pâtes",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/049/3340/front_fr.23.400.jpg",
-            "n_grade": "C",
-            "url": "https://fr.openfoodfacts.org/produit/3270160493340/tagliatelles-aux-truffes-blanches-et-champignons-de-paris-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/049/3340/nutrition_fr.25.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Quinoa et céréales cuisinés / légumes",
-            "store": "Picard",
-            "category": "Plats préparés surgelés",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/059/1763/front_fr.19.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160591763/quinoa-et-cereales-cuisines-legumes-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/059/1763/nutrition_fr.8.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Lasagnes aux Légumes Grillés et à la Mozzarella",
-            "store": "Picard",
-            "category": "Lasagnes aux légumes",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/081/3681/front_fr.40.400.jpg",
-            "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160813681/lasagnes-aux-legumes-grilles-et-a-la-mozzarella-surgelees-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/081/3681/nutrition_fr.27.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Gnocchis au chèvre et aux épinards",
-            "store": "Picard",
-            "category": "Plats préparés à base de pâtes",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/086/0166/front_fr.25.400.jpg",
-            "n_grade": "C",
-            "url": "https://fr.openfoodfacts.org/produit/3270160860166/gnocchis-au-chevre-et-aux-epinards-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/086/0166/nutrition_fr.15.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Ratatouille cuisinée Bio",
-            "store": "picard",
-            "category": "Ratatouilles",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/059/8373/front_fr.4.400.jpg",
-            "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160598373/ratatouille-cuisinee-bio-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/059/8373/nutrition_fr.19.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Lasagnes Bolognaise Pur Bœuf",
-            "store": "Carrefour market,Leclerc",
-            "category": "Lasagnes à la bolognaise",
-            "img": "https://static.openfoodfacts.org/images/products/359/974/000/9628/front_fr.52.400.jpg",
-            "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3599740009628/lasagnes-bolognaise-pur-boeuf-findus",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/359/974/000/9628/nutrition_fr.54.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Gratin de Légumes à la Provençale",
-            "store": "Picard",
-            "category": "Plats préparés à réchauffer au four traditionnel",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/011/2210/front_fr.36.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160112210/gratin-de-legumes-a-la-provencale-surgele-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/011/2210/nutrition_fr.16.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Lasagnes à la bolognaise",
-            "store": "Picard",
-            "category": "Lasagnes surgelées",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/057/3769/front_fr.3.400.jpg",
-            "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160573769/lasagnes-a-la-bolognaise-surgelees-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/057/3769/nutrition_fr.7.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Poulet sauce teriyaki et riz au sésame",
-            "store": "Picard",
-            "category": "Plats préparés à réchauffer au micro-onde",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/086/3716/front_fr.4.400.jpg",
-            "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160863716/poulet-sauce-teriyaki-et-riz-au-sesame-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/086/3716/nutrition_fr.7.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Aiguillettes de Poulet au Miel",
-            "store": "Picard",
-            "category": "Plats à base de poulet",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/086/2481/front_fr.19.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160862481/aiguillettes-de-poulet-au-miel-semoule-petits-legumes-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/086/2481/nutrition_fr.31.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Tarte Saumon et Poireaux à la Crème",
-            "store": "Intermarché",
-            "category": "Tartes surgelées (salées)",
-            "img": "https://static.openfoodfacts.org/images/products/324/883/308/5802/front_fr.46.400.jpg",
-            "n_grade": "C",
-            "url": "https://fr.openfoodfacts.org/produit/3248833085802/tarte-saumon-et-poireaux-a-la-creme-marie",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/324/883/308/5802/nutrition_fr.49.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Flammekueche",
-            "store": "Picard",
-            "category": "Pizzas tartes salées et quiches",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/040/5817/front_fr.36.400.jpg",
-            "n_grade": "D",
-            "url": "https://fr.openfoodfacts.org/produit/3270160405817/flammekueche-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/040/5817/nutrition_fr.22.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Nouilles aux Crevettes et aux Légumes",
-            "store": "Picard",
-            "category": "Plats préparés à base de pâtes",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/057/8399/front_fr.26.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160578399/nouilles-aux-crevettes-et-aux-legumes-sauce-au-lait-de-coco-et-au-gngembre-surgelees-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/057/8399/nutrition_fr.37.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "2 dos de cabillaud façon fish and chips",
-            "store": "Picard",
-            "category": "Poissons panés de cabillaud",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/074/4824/front_fr.33.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160744824/2-dos-de-cabillaud-facon-fish-and-chips-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/074/4824/nutrition_fr.35.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "8 palets de légumes préfrits - surgelés Courgettes jaune et verte",
-            "store": "Picard",
-            "category": "Légumes préparés",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/011/8717/front_fr.9.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160118717/8-palets-de-legumes-prefrits-surgeles-courgettes-jaune-et-verte-petit-pois-doux-carotte-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/011/8717/nutrition_fr.11.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Purée aux 2 courgettes et pomme de terre surgelée",
-            "store": "Picard",
-            "category": "Purées aux deux courgettes et pommes de terre",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/050/4725/front_fr.3.400.jpg",
-            "n_grade": "B",
             "url": "https://fr.openfoodfacts.org/produit/3270160504725/puree-aux-2-courgettes-et-pomme-de-terre-surgelee-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/050/4725/nutrition_fr.7.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Four à Pierre Bolognaise",
-            "store": "Super U,Franprix",
-            "category": "Pizzas tartes salées et quiches",
-            "img": "https://static.openfoodfacts.org/images/products/761/303/226/1504/front_fr.22.400.jpg",
-            "n_grade": "C",
-            "url": "https://fr.openfoodfacts.org/produit/7613032261504/four-a-pierre-bolognaise-buitoni",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/303/226/1504/nutrition_fr.29.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Riz cuisiné à l'espagnole",
+            "img": "https://static.openfoodfacts.org/images/products/327/016/050/4725/front_fr.3.400.jpg",
             "store": "Picard",
-            "category": "plats préparés surgelés",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/059/6973/front_fr.14.400.jpg",
             "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160596973/riz-cuisine-a-l-espagnole-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/059/6973/nutrition_fr.11.400.jpg"
+            "category": [
+                "Surgelés"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/050/4725/nutrition_fr.7.400.jpg",
+            "name": "Purée aux 2 courgettes et pomme de terre surgelée"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "1 Galette Complète ",
+            "url": "https://fr.openfoodfacts.org/produit/3321271221046/l-aligot-de-l-aubrac-jeune-montagne-cooperative-fromagere-jeune-montagne",
+            "img": "https://static.openfoodfacts.org/images/products/332/127/122/1046/front_fr.23.400.jpg",
             "store": "Picard",
-            "category": "Plats préparés à réchauffer au micro-ondes",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/071/7828/front_fr.12.400.jpg",
-            "n_grade": "D",
-            "url": "https://fr.openfoodfacts.org/produit/3270160717828/1-galette-complete-oeuf-emmental-jambon-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/071/7828/nutrition_fr.9.400.jpg"
+            "n_grade": "NC",
+            "category": [
+                "Aliments et boissons à base de végétaux"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/332/127/122/1046/nutrition_fr.17.400.jpg",
+            "name": "L'aligot de l'Aubrac Jeune Montagne"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Lasagnes aux légumes grillés et à la mozzarella",
-            "store": "Picard",
-            "category": "Lasagnes surgelées",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/086/0401/front_fr.26.400.jpg",
+            "url": "https://fr.openfoodfacts.org/produit/3422440006409/puree-de-pommes-de-terre-crealine",
+            "img": "https://static.openfoodfacts.org/images/products/342/244/000/6409/front_fr.36.400.jpg",
+            "store": "Carrefour, Franprix",
             "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160860401/lasagnes-aux-legumes-grilles-et-a-la-mozzarella-surgelees-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/086/0401/nutrition_fr.17.400.jpg"
+            "category": [
+                "en:plant-based-foods-and-beverages"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/342/244/000/6409/nutrition_fr.22.400.jpg",
+            "name": "Purée de pommes de terre"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Ristorante Pizza Speciale",
-            "store": "Franprix,Magasins U",
-            "category": "Pizzas et tartes surgelées",
-            "img": "https://static.openfoodfacts.org/images/products/400/172/481/9509/front_fr.14.400.jpg",
+            "url": "https://fr.openfoodfacts.org/produit/3422440006638/l-ecrase-de-pommes-de-terre-aux-2-carottes-crealine",
+            "img": "https://static.openfoodfacts.org/images/products/342/244/000/6638/front_fr.24.400.jpg",
+            "store": "Cora,Monoprix",
+            "n_grade": "C",
+            "category": [
+                "Plats préparés"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/342/244/000/6638/nutrition_fr.14.400.jpg",
+            "name": "L'Écrasé de pommes de terre aux 2 carottes"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3270160501595/puree-de-pomme-de-terre-au-poulet-et-aux-carottes-picard",
+            "img": "https://static.openfoodfacts.org/images/products/327/016/050/1595/front_fr.19.400.jpg",
+            "store": "Picard",
+            "n_grade": "A",
+            "category": [
+                "en:plant-based-foods-and-beverages"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/050/1595/nutrition_fr.16.400.jpg",
+            "name": "Purée de pomme de terre au poulet et aux carottes"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3270160590278/ecrasee-de-pomme-de-terre-aux-truffes-noires-1-et-a-l-arome-de-truffe-surgelee-picard",
+            "img": "https://static.openfoodfacts.org/images/products/327/016/059/0278/front_fr.14.400.jpg",
+            "store": "picard",
+            "n_grade": "C",
+            "category": [
+                "Aliments et boissons à base de végétaux"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/059/0278/nutrition_fr.22.400.jpg",
+            "name": "Ecrasée de Pomme de Terre aux Truffes noires "
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3368957856307/aligot-de-l-aubrac-u-saveurs",
+            "img": "https://static.openfoodfacts.org/images/products/336/895/785/6307/front_fr.36.400.jpg",
+            "store": "Super U, Magasins U",
             "n_grade": "D",
-            "url": "https://fr.openfoodfacts.org/produit/4001724819509/ristorante-pizza-speciale-dr-oetker",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/400/172/481/9509/nutrition_fr.47.400.jpg"
+            "category": [
+                "en:plant-based-foods-and-beverages"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/336/895/785/6307/nutrition_fr.28.400.jpg",
+            "name": "Aligot de l'Aubrac"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Galettes de légumes",
-            "store": "Monoprix",
-            "category": "Galettes de légumes",
-            "img": "https://static.openfoodfacts.org/images/products/308/368/100/2430/front_fr.7.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3083681002430/galettes-de-legumes-bonduelle",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/308/368/100/2430/nutrition_fr.9.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Potage Brighton",
+            "url": "https://fr.openfoodfacts.org/produit/3270160501250/puree-de-pomme-de-terre-au-jambon-et-a-l-emmental-picard",
+            "img": "https://static.openfoodfacts.org/images/products/327/016/050/1250/front_fr.8.400.jpg",
             "store": "Picard",
-            "category": " en:frozen-soups",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/013/3369/front_fr.11.400.jpg",
             "n_grade": "C",
-            "url": "https://fr.openfoodfacts.org/produit/3270160133369/potage-brighton-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/013/3369/nutrition_fr.12.400.jpg"
+            "category": [
+                "Purées"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/050/1250/nutrition_fr.10.400.jpg",
+            "name": "Purée de pomme de terre au jambon et à l'emmental"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Trofie al pesto",
-            "store": "Picard",
-            "category": "Plats cuisinés surgelés",
-            "img": "https://static.openfoodfacts.org/images/products/800/088/120/1734/front_fr.14.400.jpg",
-            "n_grade": "C",
-            "url": "https://fr.openfoodfacts.org/produit/8000881201734/trofie-al-pesto-surgele-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/800/088/120/1734/nutrition_fr.16.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Poulet à la basquaise et riz",
-            "store": "Picard",
-            "category": "surgelé",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/029/7429/front_fr.9.400.jpg",
+            "url": "https://fr.openfoodfacts.org/produit/3250390002482/la-puree-nature-bouton-d-or",
+            "img": "https://static.openfoodfacts.org/images/products/325/039/000/2482/front_fr.13.400.jpg",
+            "store": "Intermarché",
             "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160297429/poulet-a-la-basquaise-et-riz-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/029/7429/nutrition_fr.10.400.jpg"
+            "category": [
+                "Aliments et boissons à base de végétaux"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/039/000/2482/nutrition_fr.15.400.jpg",
+            "name": "La Purée Nature"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": " Poêlée aux marrons",
-            "store": "Picard",
-            "category": "Plats cuisinés surgelés",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/075/9606/front_fr.3.400.jpg",
-            "n_grade": "C",
-            "url": "https://fr.openfoodfacts.org/produit/3270160759606/poelee-aux-marrons-pommes-et-figues-sauce-miel-4-epices-picard",
-            "img_nutrition": "Non renseigné"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Saumon au lait de coco et cumin",
-            "store": "Picard",
-            "category": "Plats à base de poisson",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/086/2306/front_fr.11.400.jpg",
+            "url": "https://fr.openfoodfacts.org/produit/3256221675573/puree-nature-u-bio",
+            "img": "https://static.openfoodfacts.org/images/products/325/622/167/5573/front_fr.44.400.jpg",
+            "store": "Magasins U",
             "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160862306/saumon-au-lait-de-coco-et-cumin-pomme-de-terre-et-patate-douce-legumes-verts-surgeles-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/086/2306/nutrition_fr.14.400.jpg"
+            "category": [
+                "Aliments et boissons à base de végétaux"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/622/167/5573/nutrition_fr.34.400.jpg",
+            "name": "Puree nature"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Épinards Hachés à la crème fraiche",
-            "store": "",
-            "category": "Epinards surgelés",
-            "img": "https://static.openfoodfacts.org/images/products/359/974/000/3053/front_fr.23.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3599740003053/epinards-haches-a-la-creme-fraiche-findus",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/359/974/000/3053/nutrition_fr.16.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Ristorante Pizza Végétale",
-            "store": "Franprix,Magasins U",
-            "category": "Pizzas aux légumes",
-            "img": "https://static.openfoodfacts.org/images/products/400/172/481/9905/front_fr.17.400.jpg",
+            "url": "https://fr.openfoodfacts.org/produit/3270160505050/puree-de-pomme-de-terre-a-la-tomate-et-a-la-mozzarella-picard",
+            "img": "https://static.openfoodfacts.org/images/products/327/016/050/5050/front_fr.7.400.jpg",
+            "store": "Picard",
             "n_grade": "C",
-            "url": "https://fr.openfoodfacts.org/produit/4001724819905/ristorante-pizza-vegetale-dr-oetker",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/400/172/481/9905/nutrition_fr.15.400.jpg"
+            "category": [
+                "en:frozen-foods"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/050/5050/nutrition_fr.16.400.jpg",
+            "name": "Purée de pomme de terre à la tomate et à la mozzarella"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Les Galettes de légumes - La Printanière : Duo de Courgettes",
+            "url": "https://fr.openfoodfacts.org/produit/3564700786123/pom-lisse-emmental",
+            "img": "https://static.openfoodfacts.org/images/products/356/470/078/6123/front_fr.10.400.jpg",
             "store": "Leclerc",
-            "category": "Galettes de légumes",
-            "img": "https://static.openfoodfacts.org/images/products/308/368/063/0153/front_fr.39.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3083680630153/les-galettes-de-legumes-la-printaniere-duo-de-courgettes-pois-doux-carottes-bonduelle",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/308/368/063/0153/nutrition_fr.37.400.jpg"
+            "n_grade": "B",
+            "category": [
+                "Aliments et boissons à base de végétaux"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/356/470/078/6123/nutrition_fr.12.400.jpg",
+            "name": "Pom'Lisse Emmental"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Aiguillettes de poulet à la moutarde et au citron",
-            "store": "Picard",
-            "category": "Plats à base de poulet",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/072/6080/front_fr.3.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160726080/aiguillettes-de-poulet-a-la-moutarde-et-au-citron-ecrasee-de-pommes-de-terre-et-de-carottes-surgelees-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/072/6080/nutrition_fr.13.400.jpg"
+            "url": "https://fr.openfoodfacts.org/produit/3596710337729/puree-de-pomme-de-terre-bio-auchan-bio",
+            "img": "https://static.openfoodfacts.org/images/products/359/671/033/7729/front_fr.5.400.jpg",
+            "store": "Auchan",
+            "n_grade": "C",
+            "category": [
+                "Frais"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/359/671/033/7729/nutrition_fr.7.400.jpg",
+            "name": "Purée de Pomme de Terre Bio"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Batonnets colin alaska",
-            "store": "Lidl",
-            "category": "Poissons panés de colin",
-            "img": "https://static.openfoodfacts.org/images/products/20001797/front_fr.38.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/20001797/batonnets-colin-alaska-ocean-sea",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/20001797/nutrition_fr.24.400.jpg"
+            "url": "https://fr.openfoodfacts.org/produit/6111180001573/puree-de-pommes-de-terre-ideal",
+            "img": "https://static.openfoodfacts.org/images/products/611/118/000/1573/front_fr.3.400.jpg",
+            "store": "",
+            "n_grade": "B",
+            "category": [
+                "Purées de pommes de terre"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/611/118/000/1573/nutrition_fr.13.400.jpg",
+            "name": "Purée de pommes de terre"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Purée Délice Duo Douceur Carottes",
+            "url": "https://fr.openfoodfacts.org/produit/00233446/cheddar-cheese-potato-mash-marks-spencer",
+            "img": "https://static.openfoodfacts.org/images/products/00233446/front_fr.11.400.jpg",
+            "store": "Marks & Spencer",
+            "n_grade": "C",
+            "category": [
+                "Plats préparés réfrigérés"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/00233446/nutrition_fr.16.400.jpg",
+            "name": "Cheddar Cheese Potato Mash"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/20403522/puree-de-pomme-de-terre-harvest-basket",
+            "img": "https://static.openfoodfacts.org/images/products/20403522/front_fr.3.400.jpg",
+            "store": "",
+            "n_grade": "C",
+            "category": [
+                "Surgelés"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/20403522/nutrition_fr.11.400.jpg",
+            "name": "Purée de Pomme de Terre"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/31633536/mousline-maggi",
+            "img": "https://static.openfoodfacts.org/images/products/31633536/front_fr.4.400.jpg",
+            "store": "",
+            "n_grade": "B",
+            "category": [
+                "Purées de pommes de terre"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/31633536/nutrition_fr.10.400.jpg",
+            "name": "Mousline"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3222473268979/puree-de-pommes-de-terre-casino",
+            "img": "https://static.openfoodfacts.org/images/products/322/247/326/8979/front_fr.10.400.jpg",
+            "store": "Casino",
+            "n_grade": "C",
+            "category": [
+                "Purées"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/322/247/326/8979/nutrition_fr.12.400.jpg",
+            "name": "Purée de pommes de terre"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3256220515344/puree-de-pomme-de-terre-u",
+            "img": "https://static.openfoodfacts.org/images/products/325/622/051/5344/front_fr.26.400.jpg",
+            "store": "Magasins U",
+            "n_grade": "C",
+            "category": [
+                "Aliments et boissons à base de végétaux"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/622/051/5344/nutrition_fr.16.400.jpg",
+            "name": "Purée de pomme de terre"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3256223229514/ecrase-de-pommes-de-terre-a-l-huile-d-olive-10-u",
+            "img": "https://static.openfoodfacts.org/images/products/325/622/322/9514/front_fr.15.400.jpg",
+            "store": "Super U, Magasins U",
+            "n_grade": "C",
+            "category": [
+                "Purées de pommes de terre"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/622/322/9514/nutrition_fr.10.400.jpg",
+            "name": "Ecrasé de Pommes de Terre à l'Huile d'Olive 10%"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3258560844603/puree-nature-belle-france",
+            "img": "https://static.openfoodfacts.org/images/products/325/856/084/4603/front_fr.4.400.jpg",
+            "store": "",
+            "n_grade": "A",
+            "category": [
+                "Purées en flocons"
+            ],
+            "img_nutrition": "Non renseigné",
+            "name": "Purée nature"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3258561412443/puree-de-pomme-de-terre-belle-france",
+            "img": "https://static.openfoodfacts.org/images/products/325/856/141/2443/front_fr.8.400.jpg",
+            "store": "",
+            "n_grade": "B",
+            "category": [
+                "Aliments et boissons à base de végétaux"
+            ],
+            "img_nutrition": "Non renseigné",
+            "name": "Purée de Pomme de Terre"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3263859874513/puree-de-pommes-de-terre-leader-price",
+            "img": "https://static.openfoodfacts.org/images/products/326/385/987/4513/front_fr.13.400.jpg",
             "store": "Franprix",
-            "category": "Purées de légumes",
-            "img": "https://static.openfoodfacts.org/images/products/308/368/091/7452/front_fr.9.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3083680917452/puree-delice-duo-douceur-carottes-potiron-creme-bonduelle",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/308/368/091/7452/nutrition_fr.12.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Lentilles vertes aux lardons",
-            "store": "Picard",
-            "category": " en:pork-meals",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/011/9585/front_fr.7.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160119585/lentilles-vertes-aux-lardons-surgelees-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/011/9585/nutrition_fr.11.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "4 Portions de Colin d'Alaska",
-            "store": "Picard",
-            "category": "Plats préparés surgelés",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/017/3822/front_fr.10.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160173822/4-portions-de-colin-d-alaska-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/017/3822/nutrition_fr.13.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "écrasée de pommes de terre à l'huile d'olive ",
-            "store": "",
-            "category": "plats préparés surgelés",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/050/1915/front_fr.5.400.jpg",
             "n_grade": "C",
-            "url": "https://fr.openfoodfacts.org/produit/3270160501915/ecrasee-de-pommes-de-terre-a-l-huile-d-olive-7-5-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/050/1915/nutrition_fr.8.400.jpg"
+            "category": [
+                "Surgelés"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/326/385/987/4513/nutrition_fr.16.400.jpg",
+            "name": "Purée de Pommes de Terre"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "4 Paniers Fromage de chèvre - surgelés",
-            "store": "Picard",
-            "category": "Plats préparés à réchauffer au four traditionnel",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/071/5268/front_fr.11.400.jpg",
-            "n_grade": "D",
-            "url": "https://fr.openfoodfacts.org/produit/3270160715268/4-paniers-fromage-de-chevre-surgeles-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/071/5268/nutrition_fr.13.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Nuggets de poulet et linguine",
-            "store": "Picard",
-            "category": "Plats à base de poulet",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/081/2851/front_fr.8.400.jpg",
-            "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160812851/nuggets-de-poulet-et-linguine-sauce-tomate-surgeles-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/081/2851/nutrition_fr.10.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Nuggets végétariens",
+            "url": "https://fr.openfoodfacts.org/produit/3270160082827/puree-de-pomme-de-terre-picard",
+            "img": "https://static.openfoodfacts.org/images/products/327/016/008/2827/front_fr.4.400.jpg",
             "store": "",
-            "category": "Plats préparés surgelés",
-            "img": "https://static.openfoodfacts.org/images/products/356/007/099/5844/front_fr.6.400.jpg",
-            "n_grade": "D",
-            "url": "https://fr.openfoodfacts.org/produit/3560070995844/nuggets-vegetariens-carrefour",
-            "img_nutrition": "Non renseigné"
+            "n_grade": "A",
+            "category": [
+                "Aliments et boissons à base de végétaux"
+            ],
+            "img_nutrition": "Non renseigné",
+            "name": "Purée de Pomme de Terre"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Poêlée du Sud - La Romaine",
+            "url": "https://fr.openfoodfacts.org/produit/3270160122967/puree-de-pommes-de-terre-bio-picard",
+            "img": "https://static.openfoodfacts.org/images/products/327/016/012/2967/front_fr.4.400.jpg",
+            "store": "Picard",
+            "n_grade": "A",
+            "category": [
+                "Purées de pommes de terre"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/012/2967/nutrition_fr.7.400.jpg",
+            "name": "Purée de Pommes de Terre Bio"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3270160873388/ecrasee-de-pommes-de-terre-aux-cepes-picard",
+            "img": "https://static.openfoodfacts.org/images/products/327/016/087/3388/front_fr.6.400.jpg",
+            "store": "Picard",
+            "n_grade": "B",
+            "category": [
+                "Purées de pommes de terre"
+            ],
+            "img_nutrition": "Non renseigné",
+            "name": "Écrasée de Pommes de Terre aux Cèpes"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3270160875528/puree-de-pomme-de-terre-au-beurre-et-a-la-creme-d-isigny-picard",
+            "img": "https://static.openfoodfacts.org/images/products/327/016/087/5528/front_fr.9.400.jpg",
+            "store": "Picard",
+            "n_grade": "D",
+            "category": [
+                "Plats préparés à réchauffer au micro-ondes"
+            ],
+            "img_nutrition": "Non renseigné",
+            "name": "Purée de Pomme de Terre au Beurre et à la Crème d'Isigny"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3422440006775/l-ecrase-pommes-de-terre-aux-cepes-et-champignons-forestiers-crealine",
+            "img": "https://static.openfoodfacts.org/images/products/342/244/000/6775/front_fr.4.400.jpg",
+            "store": "LECLERC",
+            "n_grade": "B",
+            "category": [
+                "Purées de pommes de terre"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/342/244/000/6775/nutrition_fr.7.400.jpg",
+            "name": "L'Écrasé  Pommes de terre aux cèpes et champignons forestiers"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3490213800073/puree-pomme-de-terre-et-noix-de-muscade-ferme-d-anchin",
+            "img": "https://static.openfoodfacts.org/images/products/349/021/380/0073/front_fr.6.400.jpg",
+            "store": "",
+            "n_grade": "C",
+            "category": [
+                "Plats préparés"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/349/021/380/0073/nutrition_fr.8.400.jpg",
+            "name": "Purée Pomme de Terre et Noix de Muscade"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3560070374427/puree-de-pommes-de-terre-carrefour-bio",
+            "img": "https://static.openfoodfacts.org/images/products/356/007/037/4427/front_fr.12.400.jpg",
+            "store": "Carrefour",
+            "n_grade": "A",
+            "category": [
+                "Purées de pommes de terre"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/356/007/037/4427/nutrition_fr.6.400.jpg",
+            "name": "Purée de Pommes de Terre"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3560071151409/puree-de-pommes-de-terre-carrefour-bio",
+            "img": "https://static.openfoodfacts.org/images/products/356/007/115/1409/front_fr.13.400.jpg",
+            "store": "",
+            "n_grade": "C",
+            "category": [
+                "Purées de pommes de terre"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/356/007/115/1409/nutrition_fr.11.400.jpg",
+            "name": "Purée de pommes de terre"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3564700574362/puree-pommes-de-terre-pom-lisse",
+            "img": "https://static.openfoodfacts.org/images/products/356/470/057/4362/front_fr.10.400.jpg",
             "store": "Leclerc",
-            "category": "Poêlées",
-            "img": "https://static.openfoodfacts.org/images/products/308/368/090/4995/front_fr.21.400.jpg",
-            "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3083680904995/poelee-du-sud-la-romaine-bonduelle",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/308/368/090/4995/nutrition_fr.14.400.jpg"
+            "n_grade": "B",
+            "category": [
+                "Purées de pommes de terre"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/356/470/057/4362/nutrition_fr.13.400.jpg",
+            "name": "Purée Pommes de Terre"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Butter chicken et riz pilaf",
-            "store": "Picard",
-            "category": "Plats à base de poulet",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/039/6337/front_fr.21.400.jpg",
+            "url": "https://fr.openfoodfacts.org/produit/3564707091961/puree-de-pommes-de-terre-bio-bio-village",
+            "img": "https://static.openfoodfacts.org/images/products/356/470/709/1961/front_fr.24.400.jpg",
+            "store": "",
             "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3270160396337/butter-chicken-et-riz-pilaf-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/039/6337/nutrition_fr.23.400.jpg"
+            "category": [
+                "Aliments et boissons à base de végétaux"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/356/470/709/1961/nutrition_fr.22.400.jpg",
+            "name": "Purée De Pommes De Terre Bio"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "2 Galettes au Sarrasin ",
-            "store": "Picard",
-            "category": "Galettes garnies",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/047/1966/front_fr.22.400.jpg",
+            "url": "https://fr.openfoodfacts.org/produit/3596710017614/puree-au-lait-de-pommes-de-terre-auchan",
+            "img": "https://static.openfoodfacts.org/images/products/359/671/001/7614/front_fr.19.400.jpg",
+            "store": "Auchan",
+            "n_grade": "B",
+            "category": [
+                "Aliments et boissons à base de végétaux"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/359/671/001/7614/nutrition_fr.11.400.jpg",
+            "name": "Purée au Lait de Pommes de Terre"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3760152561466/aligot-les-halles-de-l-aveyron",
+            "img": "https://static.openfoodfacts.org/images/products/376/015/256/1466/front_fr.4.400.jpg",
+            "store": "Les halles de l'Aveyron",
             "n_grade": "C",
-            "url": "https://fr.openfoodfacts.org/produit/3270160471966/2-galettes-au-sarrasin-jambon-champignon-emmental-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/047/1966/nutrition_fr.25.400.jpg"
+            "category": [
+                "Aliments et boissons à base de végétaux"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/376/015/256/1466/nutrition_fr.12.400.jpg",
+            "name": "Aligot"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Poulet et petites pâtes sauce champignons surgelés",
-            "store": "Picard",
-            "category": " en:meals-with-chicken",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/069/5881/front_fr.47.400.jpg",
+            "url": "https://fr.openfoodfacts.org/produit/4000400130693/kartoffel-puree-pfanni",
+            "img": "https://static.openfoodfacts.org/images/products/400/040/013/0693/front_fr.3.400.jpg",
+            "store": "",
             "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160695881/poulet-et-petites-pates-sauce-champignons-surgeles-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/069/5881/nutrition_fr.36.400.jpg"
+            "category": [
+                "Meals"
+            ],
+            "img_nutrition": "Non renseigné",
+            "name": "Kartoffel Püree"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Gnocchis au pesto et tomates marinées",
-            "store": "Picard",
-            "category": " fr:Plats préparés à réchauffer au four traditionnel",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/086/3631/front_fr.6.400.jpg",
-            "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160863631/gnocchis-au-pesto-et-tomates-marinees-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/086/3631/nutrition_fr.12.400.jpg"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "name": "Paëlla Royale",
-            "store": "Franprix, Magasins U",
-            "category": " fr:paella",
-            "img": "https://static.openfoodfacts.org/images/products/324/883/072/4971/front_fr.11.400.jpg",
+            "url": "https://fr.openfoodfacts.org/produit/4012448395248/puree-de-pomme-de-terre-sans-marque",
+            "img": "https://static.openfoodfacts.org/images/products/401/244/839/5248/front_fr.5.400.jpg",
+            "store": "",
             "n_grade": "A",
-            "url": "https://fr.openfoodfacts.org/produit/3248830724971/paella-royale-marie",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/324/883/072/4971/nutrition_fr.13.400.jpg"
+            "category": [
+                "Aliments et boissons à base de végétaux"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/401/244/839/5248/nutrition_fr.11.400.jpg",
+            "name": "Purée de Pomme de Terre"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "name": "Risotto aux cèpes surgelé ",
-            "store": "Picard",
-            "category": "Risottos aux cêpes",
-            "img": "https://static.openfoodfacts.org/images/products/327/016/057/9624/front_fr.15.400.jpg",
+            "url": "https://fr.openfoodfacts.org/produit/5410376711472/puree-bintje-lutosa",
+            "img": "https://static.openfoodfacts.org/images/products/541/037/671/1472/front_fr.7.400.jpg",
+            "store": "",
             "n_grade": "B",
-            "url": "https://fr.openfoodfacts.org/produit/3270160579624/risotto-aux-cepes-surgele-picard",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/057/9624/nutrition_fr.7.400.jpg"
+            "category": [
+                "Purées de pommes de terre"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/541/037/671/1472/nutrition_fr.9.400.jpg",
+            "name": "Puree Bintje"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/8710438053029/puree-de-pommes-de-terre-surgelee-mccain",
+            "img": "https://static.openfoodfacts.org/images/products/871/043/805/3029/front_fr.10.400.jpg",
+            "store": "Magasins U",
+            "n_grade": "B",
+            "category": [
+                "Surgelés"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/043/805/3029/nutrition_fr.12.400.jpg",
+            "name": "Purée de pommes de terre surgelée"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3596710466641/puree-de-pomme-de-terre-et-epinards-auchan",
+            "img": "https://static.openfoodfacts.org/images/products/359/671/046/6641/front_fr.6.400.jpg",
+            "store": "Auchan",
+            "n_grade": "C",
+            "category": [
+                "Purées de pommes de terre"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/359/671/046/6641/nutrition_fr.13.400.jpg",
+            "name": "Purée de Pomme de terre et épinards"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "url": "https://fr.openfoodfacts.org/produit/3596710466665/puree-de-pomme-de-terre-auchan",
+            "img": "https://static.openfoodfacts.org/images/products/359/671/046/6665/front_fr.4.400.jpg",
+            "store": "Auchan",
+            "n_grade": "B",
+            "category": [
+                "Purées de pommes de terre"
+            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/359/671/046/6665/nutrition_fr.10.400.jpg",
+            "name": "Purée de Pomme de terre"
         }
     }
 ]

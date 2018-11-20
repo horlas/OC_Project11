@@ -11,5 +11,7 @@ pur_beurre/__pycache__/
 
 staticfiles/
 
+quality/management/delete_table.py
+
 arbo.txt
 test.txt
