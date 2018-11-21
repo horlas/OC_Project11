@@ -1,10 +1,8 @@
-from django.core.management import call_command
 from django.core.management.base import BaseCommand
-from .create_fixture import fill_database
 from quality.models import Product, SubstitutProduct, Backup
 from django.contrib.auth.models import User
-from django.db.models import Count, Max
-import datetime
+from django.db.models import Count
+
 
 
 class Command(BaseCommand):
@@ -28,6 +26,7 @@ class Command(BaseCommand):
             self.stdout.write(self.style.SUCCESS('When did he connect for last time ? : '))
             self.stdout.write(self.style.NOTICE(
                 '{}'.format(date.strftime('%d %B, %Y à %H:%M:%S'))))
+
         # how many Products in database? and how many categorie ?
 
         self.stdout.write(self.style.SUCCESS('How many products in database ?'))
@@ -35,13 +34,13 @@ class Command(BaseCommand):
 
 
         # how many Category and how many products per category
+
         query = Product.objects.all().values('category').annotate(total=Count('category')).order_by('-total')
         self.stdout.write(self.style.SUCCESS('How many category ? '))
         self.stdout.write(self.style.NOTICE('{}'.format(
             query.count())))
-
-
         self.stdout.write(self.style.SUCCESS('How many products in the first ten category ? : '))
+
         for c in query[:10] :
             self.stdout.write(self.style.NOTICE('category : {}  nb_products : {} '.format(c['category'], c['total'])))
 
@@ -57,10 +56,7 @@ class Command(BaseCommand):
         for a, b in enumerate(q):
             user = User.objects.get(id=b['user_id'])
             self.stdout.write(self.style.NOTICE("nom de l'utilisateur : {}".format(user.username)))
-
-
             self.stdout.write(self.style.NOTICE('nombre de sauvegardes : {} '.format(b['id__count'])))
-
 
         # how many substitut products
 

@@ -189,7 +189,7 @@ def food(request):
     user = request.user
 
     # request inner join on selectedproduct/Backup/substitutproduct
-    sel_product_list = Product.objects.filter(backup__user_id=user.id, substitutproduct__user_id=user.id).order_by()
+    sel_product_list = Product.objects.filter(backup__user_id=user.id).order_by('backup__id')
     sub_product_list = SubstitutProduct.objects.filter(user_id=user.id).order_by('id')
     # Slice pages
     paginator0 = Paginator(sel_product_list, 1)
