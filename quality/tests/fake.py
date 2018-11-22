@@ -9,7 +9,8 @@ FAKE_DATA_USER_CHOICES = {
 FAKE_DATA_USER_CHOICES2 = 'Pâte à Tartiner, Pâtes à tartiner aux noisettes et au cacao, https://static.openfoodfacts.org/images/products/366/207/201/3370/front_fr.4.100.jpg, A, https://fr.openfoodfacts.org/produit/3662072013370/pate-a-tartiner-so-tasty, Auchan, https://fr.openfoodfacts.org/produit/3168930009733/golden-crisp-fraises-framboises-quaker'
 
 
-
+########Fake data to test record of a susbtitut product which doesn't exist in Table Product##########
+FAKE_DATA_CHOICES_SUBSTITUT = ['Wrap Blé Complet', 'Pains plats au blé', 'https://static.openfoodfacts.org/images/products/841/007/647/0812/front_fr.11.400.jpg', 'A', 'https://fr.openfoodfacts.org/produit/8410076470812/wrap-ble-complet-old-el-paso', 'https://static.openfoodfacts.org/images/products/841/007/647/0812/nutrition_fr.18.400.jpg', 'Super U', 'Magasins U']
 
 
 ############ Fake datas for testing methods.py#############

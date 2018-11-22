@@ -121,7 +121,7 @@ def best_substitut(cat):
             res = request_off(cat, ns)
             for dict in res:
                 list.append(dict)
-    return data_process(list)[:3]
+    return data_process(list)[:6]
 
 if __name__ == '__main__':
     #

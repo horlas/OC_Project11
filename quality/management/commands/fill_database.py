@@ -56,14 +56,7 @@ class Command(BaseCommand):
 # categories = ['Pâtes à tartiner aux noisettes et au cacao',
 #  'Pizzas au jambon',
 #  'Plats préparés surgelés',
-#  "Chips à l'ancienne",
-#  'Purées de pommes de terre',
-#  'Margarines allégées'
-#  'Farines',
-#  'Desserts au soja'
-#  'Snacks sucrés'
+#  "Chips à l'ancienne"
+#  'Purées de pommes de terre' 'Margarines allégées''Farines''Desserts au soja''Snacks sucrés'
 #
-#  'Viennoiseries'
-#  'Plats préparés'
-#   'Sauces'
-#   'Charcuteries à cuire']
+#  'Viennoiseries' 'Plats préparés' 'Sauces' 'Charcuteries à cuire'

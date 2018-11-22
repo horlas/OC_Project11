@@ -30,6 +30,6 @@ class ProductAdmin(admin.ModelAdmin):
     verbose_name = 'Table produit'
     list_per_page = 50
     ordering = ['-id']
-    search_fields = ['name']
+    search_fields = ['name', 'category']
 
 

@@ -21,6 +21,7 @@ def accueil(request):
 def credits(request):
     return render(request, 'quality/credits.html')
 
+
 def query_data(request):
     ''' we retrieve the user input: 'query'
     if there are no results
@@ -71,7 +72,7 @@ def query_data(request):
                 }
                 return render(request , 'quality/query_data.html' , context)
 
-            # return render(request , 'quality/query_data.html' , context)
+# return render(request , 'quality/query_data.html' , context)
 
 def sub_product(request):
     '''recovery of the selected product
@@ -98,6 +99,10 @@ def sub_product(request):
 
     # we query OpenFoodfacts three other best products with the same category
     data_off = best_substitut(cat)
+
+    # we make sure to return a valid sample
+    l = 6 - len(data_quality)
+    data_off = data_off[:l]
 
     context = {
         'data_quality': data_quality,
@@ -132,7 +137,7 @@ def user_choice(request):
     # check if substitut product is already in database with the url entry
     # if not we enrich the data_base
     try:
-        p_substitut_reference = Product.objects.filter(url=choices[4])
+        p_substitut_reference = Product.objects.get(url=choices[4])
     except Product.DoesNotExist:
         p_substitut_reference = Product.objects.create(
             name=choices[0] ,
