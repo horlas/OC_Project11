@@ -8,7 +8,7 @@ TEMPLATE_DEBUG = False
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
-ALLOWED_HOSTS = ['*', 'pbquality.herokuapp.com']
+ALLOWED_HOSTS = ['purbeurre.cedrix.org', '*']
 
 
 MIDDLEWARE += ['whitenoise.middleware.WhiteNoiseMiddleware']
