@@ -60,7 +60,7 @@ class QueryOffTest(MyTestCase):
         cat = self.cat
         data = best_substitut(cat)
 
-        self.assertEqual(len(data), 3)
+        self.assertEqual(len(data), 6)
         self.assertEqual(data[0]['n_grade'], 'A')
         self.assertEqual(data[2]['n_grade'] , 'C')
         self.assertEqual(data, self.substituts)

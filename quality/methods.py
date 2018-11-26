@@ -116,20 +116,20 @@ def best_substitut(cat):
     ns_list = ["A", "B", "C", "D", "E"]
     list = []
     for ns in ns_list:
-        if len(list)<6:
-            #res is a list of dictionaries
+        if len(list) < 6:
+            # res is a list of dictionaries
             res = request_off(cat, ns)
             for dict in res:
                 list.append(dict)
     return data_process(list)[:6]
 
-if __name__ == '__main__':
-    #
+# if __name__ == '__main__':
+
     # cat = 'Sauces Pesto'
     # data = best_substitut(cat)
-    # print(len(data), data[0]['img_nutrition'], data[5]['nutriscore'], data)
+    # print(len(data), data[0]['img_nutrition'], data[5]['n_grade'], data)
 
-    #
-    query = 'nutella'
-    data = query_off(query)
-    print(data)
+
+    # query = 'nutella'
+    # data = query_off(query)
+    # print(data)

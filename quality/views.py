@@ -81,12 +81,15 @@ def sub_product(request):
     interrogation of the OFF api and display of the 6 best substitute products: via best_substitute methods.py '''
 
     # get the user choice from the checkbox
+
     choices = request.GET.get('subscribe', None)
 
-    #split the checkbox's return in order to make a python list
+    # split the checkbox's return in order to make a python list
+
     choices = choices.split(', ')
 
-    #record selected product in session
+    # record selected product in session
+
     record_session = ['selected_name', 'selected_category', 'selected_img', 'selected_nutriscore', 'selected_url']
     for value , choice in zip(record_session , choices):
         request.session[value] = choice
@@ -96,13 +99,13 @@ def sub_product(request):
     # we query in database three best product
     data_quality = Product.objects.filter(category = cat).order_by('n_grade')[:3]
 
-
     # we query OpenFoodfacts three other best products with the same category
+
     data_off = best_substitut(cat)
 
     # we make sure to return a valid sample
-    l = 6 - len(data_quality)
-    data_off = data_off[:l]
+    total_length = 6 - len(data_quality)
+    data_off = data_off[:total_length]
 
     context = {
         'data_quality': data_quality,
