@@ -24,6 +24,9 @@ services:
 
   - postgresql
 
+addons:
+  postgresql: "9.5"
+
 script:
 
   - python manage.py test

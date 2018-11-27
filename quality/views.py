@@ -59,7 +59,7 @@ def query_data(request):
             if not data_off:
                 title = 'Votre recherche "{}" n \' a donné aucun resultat!'.format(query)
                 context = {'title': title}
-                return render(request , 'quality/index.html' , context)
+                return render(request, 'quality/index.html', context)
 
             else:
                 # we provide a choice among 6 products
@@ -70,7 +70,7 @@ def query_data(request):
                     'data_quality': data_quality ,
                     'data_off': data_off
                 }
-                return render(request , 'quality/query_data.html' , context)
+                return render(request, 'quality/query_data.html', context)
 
 # return render(request , 'quality/query_data.html' , context)
 
