@@ -51,8 +51,8 @@ def query_data(request):
         # if we don't have enough product in database : we ask OpenFood Facts
         if len(data_quality) <= 6:
 
-
             # query_off function calls OFF API and return 6 products
+
             data_off = query_off(query)
 
             # in case of invalid user entry
@@ -67,7 +67,7 @@ def query_data(request):
                 data_off = data_off[:l]
                 context = {
                     'title': title ,
-                    'data_quality': data_quality ,
+                    'data_quality': data_quality,
                     'data_off': data_off
                 }
                 return render(request, 'quality/query_data.html', context)
@@ -95,17 +95,18 @@ def sub_product(request):
         request.session[value] = choice
 
     cat = request.session['selected_category']
+    name = request.session['selected_name']
 
     # we query in database three best product
-    data_quality = Product.objects.filter(category = cat).order_by('n_grade')[:3]
+    data_quality = Product.objects.filter(category=cat).exclude(name=name).order_by('n_grade')[:6]
 
     # we query OpenFoodfacts three other best products with the same category
 
     data_off = best_substitut(cat)
 
     # we make sure to return a valid sample
-    total_length = 6 - len(data_quality)
-    data_off = data_off[:total_length]
+    # total_length = 6 - len(data_quality)
+    # data_off = data_off[:total_length]
 
     context = {
         'data_quality': data_quality,

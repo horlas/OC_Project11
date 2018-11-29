@@ -25,18 +25,18 @@ def request_off(cat):
 
     url_begin = "https://fr.openfoodfacts.org/cgi/search.pl?"
     payload = {
-        'action' : 'process',
-         'tagtype_0' : 'categories',
-         'tag_contains_0' : 'contains',
-         'tag_0' : cat,
-         'tagtype_1' : 'nutrition_grades',
-         'tag_contains_1' : 'contains',
-         'sort_by' : 'unique_scans_n',
-         'page_size' : '60',
-         'axis_x' : 'energy',
-         'axis_y' : 'product_n',
+        'action': 'process',
+        'tagtype_0': 'categories',
+        'tag_contains_0' : 'contains',
+        'tag_0' : cat,
+        'tagtype_1' : 'nutrition_grades',
+        'tag_contains_1' : 'contains',
+        'sort_by' : 'unique_scans_n',
+        'page_size' : '60',
+        'axis_x' : 'energy',
+        'axis_y' : 'product_n',
 
-         'json' : '1',
+        'json' : '1',
      }
     response = requests.get(url_begin , params=payload)
     result = response.json()
@@ -72,7 +72,7 @@ def data_process(products):
     # in some case product_names have () or, inside
     # which prevents the correct operation of the rest of the program
     for i, e in enumerate(products):
-                              # len(list) in case length list < 6
+        # len(list) in case length list < 6
         m1 = re.search('(\,.*?$)', e['product_name'])
         if m1 is not None:
 
@@ -93,7 +93,7 @@ def data_process(products):
             "img": products[i].get('image_front_url', 'image_ingredients_small_url'),
 
             # keep the last category the most significant
-            "category": products[i]['categories'].split(',')[:1],
+            "category": products[i]['categories'].split(',')[-1],
             "url": products[i]['url'],
             "img_nutrition": products[i].get('image_nutrition_url', 'Non renseigné'),
             "store": products[i].get('stores', 'Non renseigné')
@@ -119,10 +119,10 @@ def data_process(products):
 def fill_database(category):
     '''function which write a file with processed data'''
     list = []
-    #import category and products
+    # import category and products
     products = request_off(category)
     products = data_process(products)
-    #build the data in json format
+    # build the data in json format
 
     for i, e in enumerate(products):
         dict = OrderedDict([("model", "quality.product"), ("fields", e)])
@@ -134,3 +134,5 @@ def fill_database(category):
     return len(products)
 
 
+# if __name__ == '__main__':
+#     fill_database('Plats préparés')

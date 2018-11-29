@@ -57,6 +57,6 @@ class Command(BaseCommand):
 #  'Pizzas au jambon',
 #  'Plats préparés surgelés',
 #  "Chips à l'ancienne"
-#  'Purées de pommes de terre' 'Margarines allégées''Farines''Desserts au soja''Snacks sucrés'
+#  'Purées de pommes de terre' 'Margarines allégées' 'Farines' 'Desserts au soja' 'Snacks sucrés'
 #
 #  'Viennoiseries' 'Plats préparés' 'Sauces' 'Charcuteries à cuire'

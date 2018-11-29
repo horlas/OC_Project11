@@ -2,841 +2,721 @@
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/87157246/front_fr.16.400.jpg",
-            "name": "Tomato Ketchup",
-            "category": [
-                "en:groceries"
-            ],
+            "name": "Lardons",
+            "img": "https://static.openfoodfacts.org/images/products/761/303/442/3054/front_fr.6.400.jpg",
+            "store": "Houra",
             "n_grade": "E",
-            "store": "dhiraj sons",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/87157246/nutrition_fr.9.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/87157246/tomato-ketchup-heinz"
+            "url": "https://fr.openfoodfacts.org/produit/7613034423054/lardons-nature-herta",
+            "category": "Poitrines de porc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/303/442/3054/nutrition_fr.18.400.jpg"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/210/032/5953/front_fr.68.400.jpg",
-            "name": "moutarde de Dijon fine et forte",
-            "category": [
-                "en:groceries"
-            ],
+            "name": "Allumettes de bacon",
+            "img": "https://static.openfoodfacts.org/images/products/315/423/005/0667/front_fr.36.400.jpg",
+            "store": "Leclerc, Franprix",
             "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/210/032/5953/nutrition_fr.19.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8712100325953/moutarde-de-dijon-fine-et-forte-amora"
+            "url": "https://fr.openfoodfacts.org/produit/3154230050667/allumettes-de-bacon-herta",
+            "category": " fr:charcuteries-a-cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/315/423/005/0667/nutrition_fr.9.400.jpg"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/570/040/7760/front_fr.6.400.jpg",
-            "name": "Ketchup bio",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/570/040/7760/nutrition_fr.44.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8715700407760/ketchup-bio-heinz"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/87157239/front_fr.28.400.jpg",
-            "name": "Heinz Tomato Ketchup",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Fakta,Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/87157239/nutrition_fr.33.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/87157239/heinz-tomato-ketchup"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/325/054/610/0055/front_fr.52.400.jpg",
-            "name": "Moutarde forte de Dijon",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Carrefour Market, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/054/610/0055/nutrition_fr.24.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3250546100055/moutarde-forte-de-dijon-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/87157260/front_fr.37.400.jpg",
-            "name": "Ketchup",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/87157260/nutrition_fr.25.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/87157260/ketchup-heinz"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/371/008/4913/front_fr.23.400.jpg",
-            "name": "Arome",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Monoprix,Intermarché,Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/371/008/4913/nutrition_fr.21.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3033710084913/arome-maggi"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/681/020/7800/front_fr.44.400.jpg",
-            "name": "Moutarde à l'Ancienne",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Leclerc, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/681/020/7800/nutrition_fr.48.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3036810207800/moutarde-a-l-ancienne-maille"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/366/060/300/0226/front_fr.9.400.jpg",
-            "name": "Mayonnaise aux oeufs frais",
-            "category": [
-                "Epicerie"
-            ],
+            "name": "Allumettes",
+            "img": "https://static.openfoodfacts.org/images/products/761/303/442/3443/front_fr.9.400.jpg",
+            "store": "Intermarché",
             "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/7613034423443/allumettes-fumees-herta",
+            "category": "Poitrines de porc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/303/442/3443/nutrition_fr.11.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Lardons Fumés",
+            "img": "https://static.openfoodfacts.org/images/products/327/019/002/3678/front_fr.25.400.jpg",
             "store": "Carrefour",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/060/300/0226/nutrition_fr.15.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3660603000226/mayonnaise-aux-oeufs-frais-benedicta"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/120/054/8002/front_fr.37.400.jpg",
-            "name": "Mayonnaise de Dijon",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Restaurant, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/120/054/8002/nutrition_fr.41.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8711200548002/mayonnaise-de-dijon-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/872/270/011/3348/front_fr.44.400.jpg",
-            "name": "Ketchup",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/872/270/011/3348/nutrition_fr.27.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8722700113348/ketchup-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/807/680/951/3722/front_fr.43.400.jpg",
-            "name": "Basilico",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "A",
-            "store": "Cora,Carrefour,Franprix,Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/807/680/951/3722/nutrition_fr.45.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8076809513722/basilico-barilla"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/87157635/front_fr.56.400.jpg",
-            "name": "Tomato Ketchup",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/87157635/nutrition_fr.21.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/87157635/tomato-ketchup-heinz"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/570/003/3235/front_fr.6.400.jpg",
-            "name": "Ketchup P'tits Heinz",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Carrefour",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/570/003/3235/nutrition_fr.33.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8715700033235/ketchup-p-tits-heinz"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/366/060/300/0233/front_fr.37.400.jpg",
-            "name": "Mayonnaise aux Œufs Frais",
-            "category": [
-                "Epicerie"
-            ],
             "n_grade": "E",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/060/300/0233/nutrition_fr.24.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3660603000233/mayonnaise-aux-oeufs-frais-benedicta"
+            "url": "https://fr.openfoodfacts.org/produit/3270190023678/lardons-fumes-carrefour",
+            "category": " fr:charcuteries-a-cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/019/002/3678/nutrition_fr.22.400.jpg"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/422/0901/front_fr.25.400.jpg",
-            "name": "Sauce provençale aux tomates fraîches",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "Franprix",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/422/0901/nutrition_fr.17.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038354220901/sauce-provencale-aux-tomates-fraiches-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/570/001/7006/front_fr.58.400.jpg",
-            "name": "Tomato Ketchup",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Hipercor",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/570/001/7006/nutrition_fr.41.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8715700017006/tomato-ketchup-heinz"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/807/680/951/3753/front_fr.39.400.jpg",
-            "name": "Pesto alla Genovese au basilic frais",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "E",
-            "store": "Géant Casino,leclerc,Magasins U,Carrefour",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/807/680/951/3753/nutrition_fr.27.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8076809513753/pesto-alla-genovese-au-basilic-frais-barilla"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/811/477/0338/front_fr.14.400.jpg",
-            "name": "Tomato Ketchup",
-            "category": [
-                "Groceries"
-            ],
-            "n_grade": "D",
+            "name": "Allumettes",
+            "img": "https://static.openfoodfacts.org/images/products/761/303/442/3115/front_fr.6.400.jpg",
             "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/811/477/0338/nutrition_fr.16.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8718114770338/tomato-ketchup-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/87157215/front_fr.53.400.jpg",
-            "name": "Tomato Ketchup",
-            "category": [
-                "Epicerie"
-            ],
             "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/87157215/nutrition_fr.19.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/87157215/tomato-ketchup-heinz"
+            "url": "https://fr.openfoodfacts.org/produit/7613034423115/allumettes-fumees-25-de-sel-herta",
+            "category": "Allumettes de porc fumées",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/303/442/3115/nutrition_fr.16.400.jpg"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/325/054/661/0271/front_fr.17.400.jpg",
-            "name": "Moutarde fine et forte",
-            "category": [
-                "en:groceries"
-            ],
+            "name": "4 Saucisses de Toulouse",
+            "img": "https://static.openfoodfacts.org/images/products/327/016/015/9208/front_fr.12.400.jpg",
+            "store": "Picard",
             "n_grade": "D",
-            "store": "Carrefour Market, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/054/661/0271/nutrition_fr.22.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3250546610271/moutarde-fine-et-forte-amora"
+            "url": "https://fr.openfoodfacts.org/produit/3270160159208/4-saucisses-de-toulouse-picard",
+            "category": "Charcuteries à cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/015/9208/nutrition_fr.15.400.jpg"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/681/020/7923/front_fr.28.400.jpg",
-            "name": "Moutarde Fin Gourmets",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Super U,Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/681/020/7923/nutrition_fr.25.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3036810207923/moutarde-fin-gourmets-maille"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/590/078/300/7232/front_fr.5.400.jpg",
-            "name": "Tomato Ketchup",
-            "category": [
-                "Ketchup"
-            ],
-            "n_grade": "D",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/590/078/300/7232/nutrition_fr.7.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/5900783007232/tomato-ketchup-heinz"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/120/054/8033/front_fr.27.400.jpg",
-            "name": "Mayonnaise de Dijon",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "E",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/120/054/8033/nutrition_fr.11.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8711200548033/mayonnaise-de-dijon-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/807/680/952/3547/front_fr.65.400.jpg",
-            "name": "Pesto rosso",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Carrefour,Franprix, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/807/680/952/3547/nutrition_fr.58.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8076809523547/pesto-rosso-barilla"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/325/054/712/9642/front_fr.5.400.jpg",
-            "name": "Savora",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "C",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/054/712/9642/nutrition_fr.14.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3250547129642/savora-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/503/511/0106/front_fr.62.400.jpg",
-            "name": "Soy Sauce salé",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "Asda,Irma.dk, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/503/511/0106/nutrition_fr.36.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8715035110106/soy-sauce-sale-kikkoman"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/872/270/016/2667/front_fr.74.400.jpg",
-            "name": "KETCHUP PLAISIR+",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "Leclerc,Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/872/270/016/2667/nutrition_fr.31.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8722700162667/ketchup-plaisir-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/807/680/953/0668/front_fr.19.400.jpg",
-            "name": "Sauce ricotta",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "C",
-            "store": "Monoprix, Franprix, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/807/680/953/0668/nutrition_fr.15.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8076809530668/sauce-ricotta-barilla"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/210/075/1370/front_fr.10.400.jpg",
-            "name": "Tomato ketchup",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/210/075/1370/nutrition_fr.18.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8712100751370/tomato-ketchup-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/872/270/012/5174/front_fr.43.400.jpg",
-            "name": "Sauce burger",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Cora, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/872/270/012/5174/nutrition_fr.16.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8722700125174/sauce-burger-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/287/6506/front_fr.28.400.jpg",
-            "name": "TomaPizza Tomates et Origan",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "C",
-            "store": "Carrefour",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/287/6506/nutrition_fr.30.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038352876506/tomapizza-tomates-et-origan-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/445/000/1123/front_fr.32.400.jpg",
-            "name": "Viandox",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "Super U, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/445/000/1123/nutrition_fr.15.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3034450001123/viandox-knorr"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/287/0924/front_fr.6.400.jpg",
-            "name": "Sauce aux tomates fraîches",
-            "category": [
-                "Sauces tomates"
-            ],
-            "n_grade": "C",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/287/0924/nutrition_fr.8.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038352870924/sauce-aux-tomates-fraiches-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/325/054/785/1109/front_fr.25.400.jpg",
-            "name": "Moutarde Mi-Forte",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Casino, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/054/785/1109/nutrition_fr.47.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3250547851109/moutarde-mi-forte-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/210/073/1822/front_fr.45.400.jpg",
-            "name": "Savora",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/210/073/1822/nutrition_fr.25.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8712100731822/savora-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/87157093/front_fr.3.400.jpg",
-            "name": "Heinz ketchup 50% moins sucres",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "migros,coop",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/87157093/nutrition_fr.5.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/87157093/heinz-ketchup-50-moins-sucres"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/872/270/011/4703/front_fr.46.400.jpg",
-            "name": "Sauce barbecue",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Carrefour, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/872/270/011/4703/nutrition_fr.53.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8722700114703/sauce-barbecue-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/325/054/700/4185/front_fr.10.400.jpg",
-            "name": "Moutarde de Dijon",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Intermarché,Carrefour Market",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/054/700/4185/nutrition_fr.36.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3250547004185/moutarde-de-dijon-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/256/624/6465/front_fr.11.400.jpg",
-            "name": "Moutarde fine de Dijon",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/256/624/6465/nutrition_fr.20.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8712566246465/moutarde-fine-de-dijon-maille"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/347/882/200/5249/front_fr.27.400.jpg",
-            "name": "Ketchup",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/347/882/200/5249/nutrition_fr.8.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3478822005249/ketchup-jardin-bio-logique"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/366/060/300/0196/front_fr.5.400.jpg",
-            "name": "Mayonnaise aux oeufs frais",
-            "category": [
-                "Mayonnaises"
-            ],
-            "n_grade": "E",
-            "store": "Cora, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/060/300/0196/nutrition_fr.25.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3660603000196/mayonnaise-aux-oeufs-frais-benedicta"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/256/636/2509/front_fr.9.400.jpg",
-            "name": "Ketchup ",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/256/636/2509/nutrition_fr.7.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8712566362509/ketchup-offre-saisonniere-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/900/0850/front_fr.7.400.jpg",
-            "name": "Bolognaise",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "Carrefour",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/900/0850/nutrition_fr.15.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038359000850/bolognaise-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/900/0843/front_fr.35.400.jpg",
-            "name": "Sauce bolognaise",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "B",
-            "store": "Carrefour, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/900/0843/nutrition_fr.42.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038359000843/sauce-bolognaise-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/50457137/front_fr.6.400.jpg",
-            "name": "Heinz Tomato Ketchup",
-            "category": [
-                "Ketchup"
-            ],
-            "n_grade": "D",
-            "store": "Restaurant",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/50457137/nutrition_fr.16.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/50457137/heinz-tomato-ketchup"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/210/087/1986/front_fr.8.400.jpg",
-            "name": "Moutarde L'Originale",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/210/087/1986/nutrition_fr.10.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8712100871986/moutarde-l-originale-maille"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/900/4544/front_fr.45.400.jpg",
-            "name": "Sauce tomate cuisinée aux petits légumes",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Lidl,Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/900/4544/nutrition_fr.9.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038359004544/sauce-tomate-cuisinee-aux-petits-legumes-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/356/470/057/1170/front_fr.37.400.jpg",
-            "name": "Sauce Pesto au basilic frais",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
+            "name": "Lardons fumés",
+            "img": "https://static.openfoodfacts.org/images/products/376/010/952/8177/front_fr.17.400.jpg",
             "store": "Leclerc",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/356/470/057/1170/nutrition_fr.28.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3564700571170/sauce-pesto-au-basilic-frais-turini"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/366/060/300/3036/front_fr.6.400.jpg",
-            "name": "Mayonnaise",
-            "category": [
-                "Epicerie"
-            ],
             "n_grade": "E",
-            "store": "LIDL",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/060/300/3036/nutrition_fr.12.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3660603003036/mayonnaise-benedicta"
+            "url": "https://fr.openfoodfacts.org/produit/3760109528177/lardons-fumes-eco",
+            "category": "Charcuteries à cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/376/010/952/8177/nutrition_fr.10.400.jpg"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/20422417/front_fr.43.400.jpg",
-            "name": "Tomato Ketchup",
-            "category": [
-                "Groceries"
-            ],
-            "n_grade": "D",
-            "store": "Lidl",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/20422417/nutrition_fr.14.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/20422417/tomato-ketchup-kania"
+            "name": "Allumettes Nature",
+            "img": "https://static.openfoodfacts.org/images/products/761/303/442/3412/front_fr.4.400.jpg",
+            "store": "Super U",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/7613034423412/allumettes-nature-herta",
+            "category": "Charcuteries à cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/303/442/3412/nutrition_fr.12.400.jpg"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/419/0204/front_fr.34.400.jpg",
-            "name": "Sauce provençale aux tomates fraîches",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
+            "name": "Bacon",
+            "img": "https://static.openfoodfacts.org/images/products/315/423/004/0286/front_fr.14.400.jpg",
             "store": "Franprix, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/419/0204/nutrition_fr.8.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038354190204/sauce-provencale-aux-tomates-fraiches-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/366/060/300/0172/front_fr.12.400.jpg",
-            "name": "Sauce Béarnaise",
-            "category": [
-                "Epicerie"
-            ],
             "n_grade": "D",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/060/300/0172/nutrition_fr.14.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3660603000172/sauce-bearnaise-benedicta"
+            "url": "https://fr.openfoodfacts.org/produit/3154230040286/bacon-tranches-fines-fume-15-tranches-herta",
+            "category": "Charcuteries à cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/315/423/004/0286/nutrition_fr.10.400.jpg"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/20257798/front_fr.14.400.jpg",
-            "name": "Vinaigrette legere",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Lidl",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/20257798/nutrition_fr.16.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/20257798/vinaigrette-legere-kania"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/872/270/013/9201/front_fr.32.400.jpg",
-            "name": "Moutarde douce",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/872/270/013/9201/nutrition_fr.19.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8722700139201/moutarde-douce-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/325/054/191/2592/front_fr.32.400.jpg",
-            "name": "Moutarde de Dijon fine et forte",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/054/191/2592/nutrition_fr.21.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3250541912592/moutarde-de-dijon-fine-et-forte-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/419/9603/front_fr.58.400.jpg",
-            "name": "Pesto au basilic frais",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Leclerc",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/419/9603/nutrition_fr.46.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038354199603/pesto-au-basilic-frais-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/872/270/020/2387/front_fr.5.400.jpg",
-            "name": "Moutarde fine & douce",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/872/270/020/2387/nutrition_fr.23.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8722700202387/moutarde-fine-douce-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/400/235/935/1105/front_fr.37.400.jpg",
-            "name": "Sauce soja",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/400/235/935/1105/nutrition_fr.18.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/4002359351105/sauce-soja-suzi-wan"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/325/054/660/6267/front_fr.8.400.jpg",
-            "name": "Mayonnaise de Dijon",
-            "category": [
-                "en:groceries"
-            ],
+            "name": "Lardons Nature ",
+            "img": "https://static.openfoodfacts.org/images/products/322/247/112/5113/front_fr.6.400.jpg",
+            "store": "Vival,Casino",
             "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3222471125113/lardons-nature-2-barquettes-casino",
+            "category": "Lardons natures",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/322/247/112/5113/nutrition_fr.8.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "4 Saucisses de Toulouse",
+            "img": "https://static.openfoodfacts.org/images/products/325/456/034/1364/front_fr.11.400.jpg",
+            "store": "Auchan",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/3254560341364/4-saucisses-de-toulouse-auchan",
+            "category": "Charcuteries à cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/456/034/1364/nutrition_fr.7.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Lardons Fumés au Bois de Hêtre ",
+            "img": "https://static.openfoodfacts.org/images/products/366/111/205/5813/front_fr.39.400.jpg",
+            "store": "Leclerc",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3661112055813/lardons-fumes-au-bois-de-hetre-2-barquettes-tradilege",
+            "category": "Poitrines de porc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/111/205/5813/nutrition_fr.15.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Allumettes Nature ",
+            "img": "https://static.openfoodfacts.org/images/products/366/111/205/6124/front_fr.5.400.jpg",
+            "store": "Leclerc",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3661112056124/allumettes-nature-2-barquettes-tradilege",
+            "category": "Charcuteries à cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/111/205/6124/nutrition_fr.10.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Lardons Fumés ",
+            "img": "https://static.openfoodfacts.org/images/products/20021153/front_fr.21.400.jpg",
+            "store": "Lidl",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/20021153/lardons-fumes-qualite-superieure-saint-alby",
+            "category": "Poitrines de porc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/20021153/nutrition_fr.18.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "6 Merguez véritables",
+            "img": "https://static.openfoodfacts.org/images/products/20061210/front_fr.8.400.jpg",
+            "store": "Lidl",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/20061210/6-merguez-veritables-l-etal-du-boucher",
+            "category": "Merguez",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/20061210/nutrition_fr.10.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Lardons nature",
+            "img": "https://static.openfoodfacts.org/images/products/325/039/031/4257/front_fr.21.400.jpg",
+            "store": "Intermarché",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3250390314257/lardons-nature-monique-ranou",
+            "category": " fr:Lardons natures",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/039/031/4257/nutrition_fr.36.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Lardons fumés",
+            "img": "https://static.openfoodfacts.org/images/products/356/007/053/6641/front_fr.24.400.jpg",
+            "store": "Carrefour,Carrefour market",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3560070536641/lardons-fumes-produits-blancs",
+            "category": "Charcuteries à cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/356/007/053/6641/nutrition_fr.30.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Allumettes de lardons Fumées",
+            "img": "https://static.openfoodfacts.org/images/products/20198428/front_fr.20.400.jpg",
+            "store": "Lidl",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/20198428/allumettes-de-lardons-fumees-saint-alby",
+            "category": "Poitrines de porc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/20198428/nutrition_fr.8.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Lardons",
+            "img": "https://static.openfoodfacts.org/images/products/761/303/442/3382/front_fr.4.400.jpg",
+            "store": "Super U",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/7613034423382/lardons-nature-herta",
+            "category": "Poitrines de porc",
+            "img_nutrition": "Non renseigné"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Lardons de Dinde Fumés Halal",
+            "img": "https://static.openfoodfacts.org/images/products/322/247/550/3979/front_fr.6.400.jpg",
+            "store": "Casino",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/3222475503979/lardons-de-dinde-fumes-halal-wassila",
+            "category": "Lardons de dinde fumés",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/322/247/550/3979/nutrition_fr.8.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "4 Saucisses de Toulouse",
+            "img": "https://static.openfoodfacts.org/images/products/327/016/114/9208/front_fr.19.400.jpg",
+            "store": "Picard",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/3270161149208/4-saucisses-de-toulouse-picard",
+            "category": "Charcuteries à cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/327/016/114/9208/nutrition_fr.12.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Lardons fumés Qualité Supérieure",
+            "img": "https://static.openfoodfacts.org/images/products/26067353/front_fr.32.400.jpg",
+            "store": "Aldi",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/26067353/lardons-fumes-qualite-superieure-couronne-d-or",
+            "category": "Charcuteries à cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/26067353/nutrition_fr.28.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Chipolatas supérieures",
+            "img": "https://static.openfoodfacts.org/images/products/325/622/017/1526/front_fr.5.400.jpg",
+            "store": "Super U",
+            "n_grade": "NC",
+            "url": "https://fr.openfoodfacts.org/produit/3256220171526/chipolatas-superieures-u",
+            "category": "Viandes de porc",
+            "img_nutrition": "Non renseigné"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Lardons fumés ",
+            "img": "https://static.openfoodfacts.org/images/products/356/007/055/5673/front_fr.15.400.jpg",
+            "store": "Carrefour,Banque alimentaire",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/3560070555673/lardons-fumes-25-de-sel-carrefour",
+            "category": "Méta-catégorie",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/356/007/055/5673/nutrition_fr.17.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Allumettes Fumées ",
+            "img": "https://static.openfoodfacts.org/images/products/366/111/205/5882/front_fr.6.400.jpg",
+            "store": "Leclerc",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3661112055882/allumettes-fumees-2-barquettes-tradilege",
+            "category": "Poitrines de porc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/111/205/5882/nutrition_fr.4.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Lardons Fumés ",
+            "img": "https://static.openfoodfacts.org/images/products/322/247/112/5120/front_fr.18.400.jpg",
+            "store": "Géant Casino",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3222471125120/lardons-fumes-2-barquettes-casino",
+            "category": "Poitrines de porc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/322/247/112/5120/nutrition_fr.5.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Allumettes de lardons Nature",
+            "img": "https://static.openfoodfacts.org/images/products/324/541/188/4376/front_fr.13.400.jpg",
             "store": "Carrefour",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/054/660/6267/nutrition_fr.19.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3250546606267/mayonnaise-de-dijon-amora"
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3245411884376/allumettes-de-lardons-nature-carrefour",
+            "category": "Poitrines de porc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/324/541/188/4376/nutrition_fr.15.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Allumettes fumées ",
+            "img": "https://static.openfoodfacts.org/images/products/324/541/302/6224/front_fr.14.400.jpg",
+            "store": "Carrefour",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/3245413026224/allumettes-fumees-11-mg-carrefour",
+            "category": "Allumettes de porc fumées",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/324/541/302/6224/nutrition_fr.8.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Lardons Fumés",
+            "img": "https://static.openfoodfacts.org/images/products/359/671/033/8382/front_fr.25.400.jpg",
+            "store": "Auchan",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3596710338382/lardons-fumes-auchan-bio",
+            "category": "Poitrines de porc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/359/671/033/8382/nutrition_fr.8.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Fines Tranches",
+            "img": "https://static.openfoodfacts.org/images/products/761/303/442/3290/front_fr.3.400.jpg",
+            "store": "Franprix, Magasins U",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/7613034423290/fines-tranches-poitrine-fumee-2-x-7-tranches-fines-herta",
+            "category": " fr:Poitrines fumées",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/303/442/3290/nutrition_fr.8.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Véritable merguez Bœuf et mouton ",
+            "img": "https://static.openfoodfacts.org/images/products/324/541/414/2190/front_fr.6.400.jpg",
+            "store": "Carrefour",
+            "n_grade": "NC",
+            "url": "https://fr.openfoodfacts.org/produit/3245414142190/veritable-merguez-boeuf-et-mouton-x-6-carrefour",
+            "category": "Merguez",
+            "img_nutrition": "Non renseigné"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Véritable Merguez Bœuf & Mouton ",
+            "img": "https://static.openfoodfacts.org/images/products/324/541/534/8782/front_fr.37.400.jpg",
+            "store": "Carrefour,Carrefour market",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3245415348782/veritable-merguez-boeuf-mouton-x-6-chez-carrefour-selectionne-par-nos-bouchers",
+            "category": "Merguez",
+            "img_nutrition": "Non renseigné"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Saucisse de Toulouse",
+            "img": "https://static.openfoodfacts.org/images/products/324/541/540/7311/front_fr.12.400.jpg",
+            "store": "Carrefour City,Carrefour",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/3245415407311/saucisse-de-toulouse-reflets-de-france",
+            "category": "Charcuteries à cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/324/541/540/7311/nutrition_fr.19.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Allumettes Allégées Fumées au Bois de Hêtre ",
+            "img": "https://static.openfoodfacts.org/images/products/366/111/205/4199/front_fr.4.400.jpg",
+            "store": "Leclerc",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/3661112054199/allumettes-allegees-fumees-au-bois-de-hetre-30-mg-2-barquettes-tradilege",
+            "category": "Poitrines de porc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/111/205/4199/nutrition_fr.6.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Lardons Allumettes Fumés",
+            "img": "https://static.openfoodfacts.org/images/products/26006604/front_fr.7.400.jpg",
+            "store": "Aldi",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/26006604/lardons-allumettes-fumes-couronne-d-or",
+            "category": "Allumettes de lardons",
+            "img_nutrition": "Non renseigné"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Mes Lardons Fumés VPF",
+            "img": "https://static.openfoodfacts.org/images/products/318/094/008/1226/front_fr.28.400.jpg",
+            "store": "Carrefour",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3180940081226/mes-lardons-fumes-vpf-madrange",
+            "category": "fr:Charcuteries à cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/318/094/008/1226/nutrition_fr.30.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Saucisses de Toulouse ",
+            "img": "https://static.openfoodfacts.org/images/products/322/247/294/8414/front_fr.21.400.jpg",
+            "store": "Casino",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3222472948414/saucisses-de-toulouse-x-4-casino",
+            "category": " fr:charcuteries-a-cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/322/247/294/8414/nutrition_fr.16.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Poitrine Tranches Fines ",
+            "img": "https://static.openfoodfacts.org/images/products/324/541/417/2562/front_fr.15.400.jpg",
+            "store": "Carrefour,Carrefour market",
+            "n_grade": "NC",
+            "url": "https://fr.openfoodfacts.org/produit/3245414172562/poitrine-tranches-fines-fumees-7-tranches-carrefour",
+            "category": "Poitrines fumées",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/324/541/417/2562/nutrition_fr.17.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Véritable Merguez Boeuf & Mouton ",
+            "img": "https://static.openfoodfacts.org/images/products/324/541/534/8799/front_fr.8.400.jpg",
+            "store": "Carrefour",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3245415348799/veritable-merguez-boeuf-mouton-x-12-carrefour",
+            "category": " fr:merguez",
+            "img_nutrition": "Non renseigné"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Saucisse de Toulouse",
+            "img": "https://static.openfoodfacts.org/images/products/324/541/540/7359/front_fr.7.400.jpg",
+            "store": "Carrefour",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/3245415407359/saucisse-de-toulouse-reflets-de-france",
+            "category": " fr:charcuteries-a-cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/324/541/540/7359/nutrition_fr.9.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Poitrine fumée",
+            "img": "https://static.openfoodfacts.org/images/products/325/622/463/2740/front_fr.24.400.jpg",
+            "store": "Hyper U, Magasins U",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3256224632740/poitrine-fumee-u",
+            "category": "Poitrines fumées",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/622/463/2740/nutrition_fr.18.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Saucisse de Morteau",
+            "img": "https://static.openfoodfacts.org/images/products/325/798/062/9616/front_fr.6.400.jpg",
+            "store": "",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3257980629616/saucisse-de-morteau-patrimoine-gourmand",
+            "category": " fr:charcuteries-a-cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/798/062/9616/nutrition_fr.9.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Allumettes nature",
+            "img": "https://static.openfoodfacts.org/images/products/326/385/945/6313/front_fr.8.400.jpg",
+            "store": "Leader Price",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3263859456313/allumettes-nature-leader-price",
+            "category": "Poitrines de porc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/326/385/945/6313/nutrition_fr.7.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Chipolatas supérieures",
+            "img": "https://static.openfoodfacts.org/images/products/327/323/026/9531/front_fr.5.400.jpg",
+            "store": "U",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/3273230269531/chipolatas-superieures-bigard",
+            "category": " fr:chipolatas",
+            "img_nutrition": "Non renseigné"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "La Saucisse Epicée",
+            "img": "https://static.openfoodfacts.org/images/products/353/758/080/0340/front_fr.24.400.jpg",
+            "store": "Carrefour",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/3537580800340/la-saucisse-epicee-henaff",
+            "category": "Charcuteries à cuire",
+            "img_nutrition": "Non renseigné"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Allumettes Bacon Fumées",
+            "img": "https://static.openfoodfacts.org/images/products/359/671/028/5471/front_fr.11.400.jpg",
+            "store": "Simply Market",
+            "n_grade": "C",
+            "url": "https://fr.openfoodfacts.org/produit/3596710285471/allumettes-bacon-fumees-auchan",
+            "category": "Bacon fumé",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/359/671/028/5471/nutrition_fr.13.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Allumettes Fumées ",
+            "img": "https://static.openfoodfacts.org/images/products/359/671/038/2606/front_fr.27.400.jpg",
+            "store": "Auchan",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/3596710382606/allumettes-fumees-25-de-sel-auchan",
+            "category": "Allumettes de porc fumées",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/359/671/038/2606/nutrition_fr.8.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Lardons Fumés ",
+            "img": "https://static.openfoodfacts.org/images/products/366/111/206/9476/front_fr.4.400.jpg",
+            "store": "Leclerc",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3661112069476/lardons-fumes-2-barquettes-maxi-format-tradilege",
+            "category": "Poitrines de porc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/111/206/9476/nutrition_fr.6.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "4 Saucisses de Toulouse sans colorant",
+            "img": "https://static.openfoodfacts.org/images/products/366/111/208/2659/front_fr.8.400.jpg",
+            "store": "Leclerc",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/3661112082659/4-saucisses-de-toulouse-sans-colorant-ferial",
+            "category": "Charcuteries à cuire",
+            "img_nutrition": "Non renseigné"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Saucisson à Cuire Pistache",
+            "img": "https://static.openfoodfacts.org/images/products/020/614/204/1004/front_fr.3.400.jpg",
+            "store": "",
+            "n_grade": "NC",
+            "url": "https://fr.openfoodfacts.org/produit/0206142041004/saucisson-a-cuire-pistache-boucheries-andre",
+            "category": "saucissons à la pistache",
+            "img_nutrition": "Non renseigné"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Farce catalane prête à cuire",
+            "img": "https://static.openfoodfacts.org/images/products/241/121/402/2432/front_fr.10.400.jpg",
+            "store": "Carrefour market",
+            "n_grade": "NC",
+            "url": "https://fr.openfoodfacts.org/produit/2411214022432/farce-catalane-prete-a-cuire-pedelhez",
+            "category": "Farces",
+            "img_nutrition": "Non renseigné"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Lardons nature Qualité Supérieure",
+            "img": "https://static.openfoodfacts.org/images/products/26029665/front_fr.34.400.jpg",
+            "store": "Aldi",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/26029665/lardons-nature-qualite-superieure-couronne-d-or",
+            "category": "Lardons natures",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/26029665/nutrition_fr.40.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "saucisse de toulouse",
+            "img": "https://static.openfoodfacts.org/images/products/26067094/front_fr.27.400.jpg",
+            "store": "Aldi",
+            "n_grade": "NC",
+            "url": "https://fr.openfoodfacts.org/produit/26067094/saucisse-de-toulouse-boucherie-st-clement",
+            "category": "Charcuteries à cuire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/26067094/nutrition_fr.24.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Bacon",
+            "img": "https://static.openfoodfacts.org/images/products/315/423/003/2908/front_fr.4.400.jpg",
+            "store": "",
+            "n_grade": "NC",
+            "url": "https://fr.openfoodfacts.org/produit/3154230032908/bacon-tranches-epaisses-fume-6-tranches-herta",
+            "category": "Bacon fumé",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/315/423/003/2908/nutrition_fr.10.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Allumettes Fumées",
+            "img": "https://static.openfoodfacts.org/images/products/315/423/005/2234/front_fr.6.400.jpg",
+            "store": "",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/3154230052234/allumettes-fumees-plaisirs-legerete-30-de-mg-en-moins-herta",
+            "category": "Allumettes de porc fumées",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/315/423/005/2234/nutrition_fr.8.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Saucisses de Toulouse",
+            "img": "https://static.openfoodfacts.org/images/products/318/123/215/3317/front_fr.4.400.jpg",
+            "store": "Franprix",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3181232153317/saucisses-de-toulouse-leader-price",
+            "category": " fr:charcuteries-a-cuire",
+            "img_nutrition": "Non renseigné"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Poitrine tranches fines fumée",
+            "img": "https://static.openfoodfacts.org/images/products/322/247/116/8233/front_fr.7.400.jpg",
+            "store": "",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3222471168233/poitrine-tranches-fines-fumee-casino",
+            "category": "Porc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/322/247/116/8233/nutrition_fr.9.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Chipolata supérieure ",
+            "img": "https://static.openfoodfacts.org/images/products/324/541/534/8812/front_fr.4.400.jpg",
+            "store": "Carrefour market",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3245415348812/chipolata-superieure-x-6-chez-tante-edith",
+            "category": " fr:chipolatas",
+            "img_nutrition": "Non renseigné"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Chipolata aux Herbes Supérieure ",
+            "img": "https://static.openfoodfacts.org/images/products/324/541/534/8850/front_fr.4.400.jpg",
+            "store": "Carrefour market",
+            "n_grade": "D",
+            "url": "https://fr.openfoodfacts.org/produit/3245415348850/chipolata-aux-herbes-superieure-x-6-carrefour",
+            "category": "Chipolatas aux herbes",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/324/541/534/8850/nutrition_fr.12.400.jpg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "name": "Saucisse de Toulouse",
+            "img": "https://static.openfoodfacts.org/images/products/324/541/534/8898/front_fr.6.400.jpg",
+            "store": "Carrefour",
+            "n_grade": "E",
+            "url": "https://fr.openfoodfacts.org/produit/3245415348898/saucisse-de-toulouse-pur-porc-x-4-chez-tante-edith",
+            "category": " fr:charcuteries-a-cuire",
+            "img_nutrition": "Non renseigné"
         }
     }
 ]
