@@ -10,10 +10,10 @@ class Command(BaseCommand):
 
     def handle(self , *args , **options):
 
-        #how many pur_beurre users?
+        # how many pur_beurre users?
         self.stdout.write(self.style.SUCCESS('How many Users ? : '))
         self.stdout.write(self.style.NOTICE('{}'.format(User.objects.filter(is_active=1).count())))
-        #how many superusers?
+        # how many superusers?
         superusers = User.objects.filter(is_superuser=1).values('username', 'last_login')
         count_superuser = superusers.count()
         self.stdout.write(self.style.SUCCESS('How many superusers ? '))
@@ -27,11 +27,10 @@ class Command(BaseCommand):
             self.stdout.write(self.style.NOTICE(
                 '{}'.format(date.strftime('%d %B, %Y à %H:%M:%S'))))
 
-        # how many Products in database? and how many categorie ?
+        # how many Products in database? and how many category ?
 
         self.stdout.write(self.style.SUCCESS('How many products in database ?'))
         self.stdout.write(self.style.NOTICE('{}'.format(Product.objects.count())))
-
 
         # how many Category and how many products per category
 
@@ -41,8 +40,15 @@ class Command(BaseCommand):
             query.count())))
         self.stdout.write(self.style.SUCCESS('How many products in the first ten category ? : '))
 
-        for c in query[:10] :
+        for c in query[:10]:
             self.stdout.write(self.style.NOTICE('category : {}  nb_products : {} '.format(c['category'], c['total'])))
+
+        self.stdout.write(self.style.SUCCESS('How many products in the last ten category ? : '))
+        query_reverse = query.reverse()
+        for c in query_reverse[:10]:
+            self.stdout.write(self.style.NOTICE('category : {}  nb_products : {} '.format(c['category'], c['total'])))
+
+
 
         # how many Backups
         self.stdout.write(self.style.SUCCESS('How many backups in database ? '))
