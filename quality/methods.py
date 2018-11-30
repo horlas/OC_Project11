@@ -129,7 +129,7 @@ def best_substitut(cat):
     # data = best_substitut(cat)
     # print(len(data), data[0]['img_nutrition'], data[5]['n_grade'], data)
 
-
-    # query = 'nutella'
+    #
+    # query = 'ravioli'
     # data = query_off(query)
     # print(data)

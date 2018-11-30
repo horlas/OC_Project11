@@ -2,841 +2,721 @@
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/87157246/front_fr.16.400.jpg",
-            "name": "Tomato Ketchup",
-            "category": [
-                "en:groceries"
-            ],
+            "store": "",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/544/900/000/0996/nutrition_fr.346.400.jpg",
             "n_grade": "E",
-            "store": "dhiraj sons",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/87157246/nutrition_fr.9.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/87157246/tomato-ketchup-heinz"
+            "category": "Sugared beverages",
+            "img": "https://static.openfoodfacts.org/images/products/544/900/000/0996/front_fr.348.400.jpg",
+            "name": "Coca-Cola",
+            "url": "https://fr.openfoodfacts.org/produit/5449000000996/coca-cola"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/210/032/5953/front_fr.68.400.jpg",
-            "name": "moutarde de Dijon fine et forte",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/210/032/5953/nutrition_fr.19.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8712100325953/moutarde-de-dijon-fine-et-forte-amora"
+            "store": "Cora,Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/371/006/5967/nutrition_fr.184.400.jpg",
+            "n_grade": "C",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/303/371/006/5967/front_fr.80.400.jpg",
+            "name": "Nesquik",
+            "url": "https://fr.openfoodfacts.org/produit/3033710065967/nesquik-nestle"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/570/040/7760/front_fr.6.400.jpg",
-            "name": "Ketchup bio",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/570/040/7760/nutrition_fr.44.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8715700407760/ketchup-bio-heinz"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/87157239/front_fr.28.400.jpg",
-            "name": "Heinz Tomato Ketchup",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Fakta,Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/87157239/nutrition_fr.33.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/87157239/heinz-tomato-ketchup"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/325/054/610/0055/front_fr.52.400.jpg",
-            "name": "Moutarde forte de Dijon",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Carrefour Market, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/054/610/0055/nutrition_fr.24.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3250546100055/moutarde-forte-de-dijon-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/87157260/front_fr.37.400.jpg",
-            "name": "Ketchup",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/87157260/nutrition_fr.25.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/87157260/ketchup-heinz"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/371/008/4913/front_fr.23.400.jpg",
-            "name": "Arome",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Monoprix,Intermarché,Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/371/008/4913/nutrition_fr.21.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3033710084913/arome-maggi"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/681/020/7800/front_fr.44.400.jpg",
-            "name": "Moutarde à l'Ancienne",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Leclerc, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/681/020/7800/nutrition_fr.48.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3036810207800/moutarde-a-l-ancienne-maille"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/366/060/300/0226/front_fr.9.400.jpg",
-            "name": "Mayonnaise aux oeufs frais",
-            "category": [
-                "Epicerie"
-            ],
+            "store": "Cora Cafétéria,Lidl,Carrefour",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/322/888/603/0011/nutrition_fr.88.400.jpg",
             "n_grade": "E",
-            "store": "Carrefour",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/060/300/0226/nutrition_fr.15.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3660603000226/mayonnaise-aux-oeufs-frais-benedicta"
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/322/888/603/0011/front_fr.105.400.jpg",
+            "name": "Ice Tea pêche",
+            "url": "https://fr.openfoodfacts.org/produit/3228886030011/ice-tea-peche-lipton"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/120/054/8002/front_fr.37.400.jpg",
-            "name": "Mayonnaise de Dijon",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Restaurant, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/120/054/8002/nutrition_fr.41.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8711200548002/mayonnaise-de-dijon-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/872/270/011/3348/front_fr.44.400.jpg",
-            "name": "Ketchup",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/872/270/011/3348/nutrition_fr.27.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8722700113348/ketchup-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/807/680/951/3722/front_fr.43.400.jpg",
-            "name": "Basilico",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "A",
-            "store": "Cora,Carrefour,Franprix,Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/807/680/951/3722/nutrition_fr.45.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8076809513722/basilico-barilla"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/87157635/front_fr.56.400.jpg",
-            "name": "Tomato Ketchup",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/87157635/nutrition_fr.21.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/87157635/tomato-ketchup-heinz"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/570/003/3235/front_fr.6.400.jpg",
-            "name": "Ketchup P'tits Heinz",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Carrefour",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/570/003/3235/nutrition_fr.33.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8715700033235/ketchup-p-tits-heinz"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/366/060/300/0233/front_fr.37.400.jpg",
-            "name": "Mayonnaise aux Œufs Frais",
-            "category": [
-                "Epicerie"
-            ],
+            "store": "Auchan,Leclerc,Carrefour,Cora",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/317/478/000/0431/nutrition_fr.33.400.jpg",
             "n_grade": "E",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/060/300/0233/nutrition_fr.24.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3660603000233/mayonnaise-aux-oeufs-frais-benedicta"
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/317/478/000/0431/front_fr.10.400.jpg",
+            "name": "Coca Cola",
+            "url": "https://fr.openfoodfacts.org/produit/3174780000431/coca-cola"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/422/0901/front_fr.25.400.jpg",
-            "name": "Sauce provençale aux tomates fraîches",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "Franprix",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/422/0901/nutrition_fr.17.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038354220901/sauce-provencale-aux-tomates-fraiches-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/570/001/7006/front_fr.58.400.jpg",
-            "name": "Tomato Ketchup",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Hipercor",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/570/001/7006/nutrition_fr.41.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8715700017006/tomato-ketchup-heinz"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/807/680/951/3753/front_fr.39.400.jpg",
-            "name": "Pesto alla Genovese au basilic frais",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "E",
-            "store": "Géant Casino,leclerc,Magasins U,Carrefour",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/807/680/951/3753/nutrition_fr.27.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8076809513753/pesto-alla-genovese-au-basilic-frais-barilla"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/811/477/0338/front_fr.14.400.jpg",
-            "name": "Tomato Ketchup",
-            "category": [
-                "Groceries"
-            ],
-            "n_grade": "D",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/811/477/0338/nutrition_fr.16.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8718114770338/tomato-ketchup-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/87157215/front_fr.53.400.jpg",
-            "name": "Tomato Ketchup",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/87157215/nutrition_fr.19.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/87157215/tomato-ketchup-heinz"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/325/054/661/0271/front_fr.17.400.jpg",
-            "name": "Moutarde fine et forte",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Carrefour Market, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/054/661/0271/nutrition_fr.22.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3250546610271/moutarde-fine-et-forte-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/681/020/7923/front_fr.28.400.jpg",
-            "name": "Moutarde Fin Gourmets",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Super U,Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/681/020/7923/nutrition_fr.25.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3036810207923/moutarde-fin-gourmets-maille"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/590/078/300/7232/front_fr.5.400.jpg",
-            "name": "Tomato Ketchup",
-            "category": [
-                "Ketchup"
-            ],
-            "n_grade": "D",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/590/078/300/7232/nutrition_fr.7.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/5900783007232/tomato-ketchup-heinz"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/120/054/8033/front_fr.27.400.jpg",
-            "name": "Mayonnaise de Dijon",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "E",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/120/054/8033/nutrition_fr.11.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8711200548033/mayonnaise-de-dijon-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/807/680/952/3547/front_fr.65.400.jpg",
-            "name": "Pesto rosso",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Carrefour,Franprix, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/807/680/952/3547/nutrition_fr.58.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8076809523547/pesto-rosso-barilla"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/325/054/712/9642/front_fr.5.400.jpg",
-            "name": "Savora",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "C",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/054/712/9642/nutrition_fr.14.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3250547129642/savora-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/503/511/0106/front_fr.62.400.jpg",
-            "name": "Soy Sauce salé",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "Asda,Irma.dk, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/503/511/0106/nutrition_fr.36.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8715035110106/soy-sauce-sale-kikkoman"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/872/270/016/2667/front_fr.74.400.jpg",
-            "name": "KETCHUP PLAISIR+",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "Leclerc,Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/872/270/016/2667/nutrition_fr.31.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8722700162667/ketchup-plaisir-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/807/680/953/0668/front_fr.19.400.jpg",
-            "name": "Sauce ricotta",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "C",
-            "store": "Monoprix, Franprix, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/807/680/953/0668/nutrition_fr.15.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8076809530668/sauce-ricotta-barilla"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/210/075/1370/front_fr.10.400.jpg",
-            "name": "Tomato ketchup",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/210/075/1370/nutrition_fr.18.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8712100751370/tomato-ketchup-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/872/270/012/5174/front_fr.43.400.jpg",
-            "name": "Sauce burger",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Cora, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/872/270/012/5174/nutrition_fr.16.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8722700125174/sauce-burger-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/287/6506/front_fr.28.400.jpg",
-            "name": "TomaPizza Tomates et Origan",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "C",
-            "store": "Carrefour",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/287/6506/nutrition_fr.30.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038352876506/tomapizza-tomates-et-origan-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/445/000/1123/front_fr.32.400.jpg",
-            "name": "Viandox",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "Super U, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/445/000/1123/nutrition_fr.15.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3034450001123/viandox-knorr"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/287/0924/front_fr.6.400.jpg",
-            "name": "Sauce aux tomates fraîches",
-            "category": [
-                "Sauces tomates"
-            ],
-            "n_grade": "C",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/287/0924/nutrition_fr.8.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038352870924/sauce-aux-tomates-fraiches-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/325/054/785/1109/front_fr.25.400.jpg",
-            "name": "Moutarde Mi-Forte",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Casino, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/054/785/1109/nutrition_fr.47.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3250547851109/moutarde-mi-forte-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/210/073/1822/front_fr.45.400.jpg",
-            "name": "Savora",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/210/073/1822/nutrition_fr.25.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8712100731822/savora-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/87157093/front_fr.3.400.jpg",
-            "name": "Heinz ketchup 50% moins sucres",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "migros,coop",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/87157093/nutrition_fr.5.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/87157093/heinz-ketchup-50-moins-sucres"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/872/270/011/4703/front_fr.46.400.jpg",
-            "name": "Sauce barbecue",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Carrefour, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/872/270/011/4703/nutrition_fr.53.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8722700114703/sauce-barbecue-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/325/054/700/4185/front_fr.10.400.jpg",
-            "name": "Moutarde de Dijon",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Intermarché,Carrefour Market",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/054/700/4185/nutrition_fr.36.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3250547004185/moutarde-de-dijon-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/256/624/6465/front_fr.11.400.jpg",
-            "name": "Moutarde fine de Dijon",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/256/624/6465/nutrition_fr.20.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8712566246465/moutarde-fine-de-dijon-maille"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/347/882/200/5249/front_fr.27.400.jpg",
-            "name": "Ketchup",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/347/882/200/5249/nutrition_fr.8.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3478822005249/ketchup-jardin-bio-logique"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/366/060/300/0196/front_fr.5.400.jpg",
-            "name": "Mayonnaise aux oeufs frais",
-            "category": [
-                "Mayonnaises"
-            ],
-            "n_grade": "E",
-            "store": "Cora, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/060/300/0196/nutrition_fr.25.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3660603000196/mayonnaise-aux-oeufs-frais-benedicta"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/256/636/2509/front_fr.9.400.jpg",
-            "name": "Ketchup ",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/256/636/2509/nutrition_fr.7.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8712566362509/ketchup-offre-saisonniere-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/900/0850/front_fr.7.400.jpg",
-            "name": "Bolognaise",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "Carrefour",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/900/0850/nutrition_fr.15.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038359000850/bolognaise-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/900/0843/front_fr.35.400.jpg",
-            "name": "Sauce bolognaise",
-            "category": [
-                "en:groceries"
-            ],
+            "store": "Intermarché,Cora,Magasins U,Leclerc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/371/006/5066/nutrition_fr.102.400.jpg",
             "n_grade": "B",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/303/371/006/5066/front_fr.48.400.jpg",
+            "name": "Nesquik",
+            "url": "https://fr.openfoodfacts.org/produit/3033710065066/nesquik-nestle"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Intermarché",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/312/448/020/8842/nutrition_fr.10.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/312/448/020/8842/front_fr.23.400.jpg",
+            "name": "Oasis Tropical",
+            "url": "https://fr.openfoodfacts.org/produit/3124480208842/oasis-tropical"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Coccimarket",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/500/011/260/9653/nutrition_fr.55.400.jpg",
+            "n_grade": "E",
+            "category": " en:beverages",
+            "img": "https://static.openfoodfacts.org/images/products/500/011/260/9653/front_fr.17.400.jpg",
+            "name": "Original taste",
+            "url": "https://fr.openfoodfacts.org/produit/5000112609653/original-taste-coca-cola"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Distributeur automatique,OKCon 2013,M!P restaurants at CICG",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/544/900/001/1527/nutrition_fr.92.400.jpg",
+            "n_grade": "E",
+            "category": "Sodas a base de naranja",
+            "img": "https://static.openfoodfacts.org/images/products/544/900/001/1527/front_fr.163.400.jpg",
+            "name": "Fanta Orange ",
+            "url": "https://fr.openfoodfacts.org/produit/5449000011527/fanta-orange"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/309/271/220/0226/nutrition_fr.58.400.jpg",
+            "n_grade": "NC",
+            "category": " en:beverages",
+            "img": "https://static.openfoodfacts.org/images/products/309/271/220/0226/front_fr.28.400.jpg",
+            "name": "Sirop de Menthe Verte",
+            "url": "https://fr.openfoodfacts.org/produit/3092712200226/sirop-de-menthe-verte-teisseire"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/762/221/011/6543/nutrition_fr.14.400.jpg",
+            "n_grade": "NC",
+            "category": "Chocolats en poudre",
+            "img": "https://static.openfoodfacts.org/images/products/762/221/011/6543/front_fr.12.400.jpg",
+            "name": "Grand arôme",
+            "url": "https://fr.openfoodfacts.org/produit/7622210116543/grand-arome-poulain"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Leclerc",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/371/006/5875/nutrition_fr.20.400.jpg",
+            "n_grade": "B",
+            "category": "Produits lyophilisés à reconstituer",
+            "img": "https://static.openfoodfacts.org/images/products/303/371/006/5875/front_fr.18.400.jpg",
+            "name": "Nesquik® 450 g",
+            "url": "https://fr.openfoodfacts.org/produit/3033710065875/nesquik-450-g"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Leclerc,Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/303/491/6891/nutrition_fr.71.400.jpg",
+            "n_grade": "NC",
+            "category": "Chocolats en poudre",
+            "img": "https://static.openfoodfacts.org/images/products/761/303/491/6891/front_fr.24.400.jpg",
+            "name": "Nesquik",
+            "url": "https://fr.openfoodfacts.org/produit/7613034916891/nesquik-nestle"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "G20",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/324/976/000/0081/nutrition_fr.8.400.jpg",
+            "n_grade": "E",
+            "category": "Sodas aux fruits",
+            "img": "https://static.openfoodfacts.org/images/products/324/976/000/0081/front_fr.10.400.jpg",
+            "name": "Orangina",
+            "url": "https://fr.openfoodfacts.org/produit/3249760000081/orangina"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/500/011/255/8272/nutrition_fr.28.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/500/011/255/8272/front_fr.59.400.jpg",
+            "name": "Coca-Cola",
+            "url": "https://fr.openfoodfacts.org/produit/5000112558272/coca-cola"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
             "store": "Carrefour, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/900/0843/nutrition_fr.42.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038359000843/sauce-bolognaise-panzani"
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/305/764/038/5148/nutrition_fr.43.400.jpg",
+            "n_grade": "NC",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/305/764/038/5148/front_fr.75.400.jpg",
+            "name": "Volvic zest citron",
+            "url": "https://fr.openfoodfacts.org/produit/3057640385148/volvic-zest-citron"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/50457137/front_fr.6.400.jpg",
-            "name": "Heinz Tomato Ketchup",
-            "category": [
-                "Ketchup"
-            ],
-            "n_grade": "D",
-            "store": "Restaurant",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/50457137/nutrition_fr.16.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/50457137/heinz-tomato-ketchup"
+            "store": "Carrefour, Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/447/000/0267/nutrition_fr.30.400.jpg",
+            "n_grade": "NC",
+            "category": "Chocolats en poudre",
+            "img": "https://static.openfoodfacts.org/images/products/303/447/000/0267/front_fr.13.400.jpg",
+            "name": "Banania 1kg",
+            "url": "https://fr.openfoodfacts.org/produit/3034470000267/banania-1kg"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/871/210/087/1986/front_fr.8.400.jpg",
-            "name": "Moutarde L'Originale",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/871/210/087/1986/nutrition_fr.10.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8712100871986/moutarde-l-originale-maille"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/900/4544/front_fr.45.400.jpg",
-            "name": "Sauce tomate cuisinée aux petits légumes",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Lidl,Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/900/4544/nutrition_fr.9.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038359004544/sauce-tomate-cuisinee-aux-petits-legumes-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/356/470/057/1170/front_fr.37.400.jpg",
-            "name": "Sauce Pesto au basilic frais",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "Leclerc",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/356/470/057/1170/nutrition_fr.28.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3564700571170/sauce-pesto-au-basilic-frais-turini"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/366/060/300/3036/front_fr.6.400.jpg",
-            "name": "Mayonnaise",
-            "category": [
-                "Epicerie"
-            ],
+            "store": "Super U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/309/271/300/0306/nutrition_fr.53.400.jpg",
             "n_grade": "E",
-            "store": "LIDL",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/060/300/3036/nutrition_fr.12.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3660603003036/mayonnaise-benedicta"
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/309/271/300/0306/front_fr.19.400.jpg",
+            "name": "Sirop de Grenadine",
+            "url": "https://fr.openfoodfacts.org/produit/3092713000306/sirop-de-grenadine-teisseire"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/20422417/front_fr.43.400.jpg",
-            "name": "Tomato Ketchup",
-            "category": [
-                "Groceries"
-            ],
-            "n_grade": "D",
-            "store": "Lidl",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/20422417/nutrition_fr.14.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/20422417/tomato-ketchup-kania"
+            "store": "Carrefour,Monoprix, Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/303/256/8436/nutrition_fr.76.400.jpg",
+            "n_grade": "NC",
+            "category": "Cappuccino en poudre",
+            "img": "https://static.openfoodfacts.org/images/products/761/303/256/8436/front_fr.64.400.jpg",
+            "name": "Cappuccino",
+            "url": "https://fr.openfoodfacts.org/produit/7613032568436/cappuccino-nescafe"
         }
     },
     {
         "model": "quality.product",
         "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/419/0204/front_fr.34.400.jpg",
-            "name": "Sauce provençale aux tomates fraîches",
-            "category": [
-                "Epicerie"
-            ],
+            "store": "",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/332/977/816/4019/nutrition_fr.57.400.jpg",
+            "n_grade": "B",
+            "category": "Yaourts aromatisés",
+            "img": "https://static.openfoodfacts.org/images/products/332/977/816/4019/front_fr.64.400.jpg",
+            "name": "P'tit Yop",
+            "url": "https://fr.openfoodfacts.org/produit/3329778164019/p-tit-yop-gout-fraise-yoplait"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Super U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/353/828/003/1515/nutrition_fr.24.400.jpg",
+            "n_grade": "E",
+            "category": "Chocolats en poudre",
+            "img": "https://static.openfoodfacts.org/images/products/353/828/003/1515/front_fr.46.400.jpg",
+            "name": "grand arôme 32% cacao sélectionné",
+            "url": "https://fr.openfoodfacts.org/produit/3538280031515/grand-arome-32-cacao-selectionne-poulain"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Carrefour,OKCon 2013,M!P restaurants at CICG,Action,TESCO",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/54491472/nutrition_fr.13.400.jpg",
+            "n_grade": "E",
+            "category": "Cukros italok",
+            "img": "https://static.openfoodfacts.org/images/products/54491472/front_fr.81.400.jpg",
+            "name": "Coca-Cola",
+            "url": "https://fr.openfoodfacts.org/produit/54491472/coca-cola"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "monoprix,Magasins U,Carrefour Market",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/322/982/078/7008/nutrition_fr.42.400.jpg",
+            "n_grade": "B",
+            "category": "Petit-déjeuners",
+            "img": "https://static.openfoodfacts.org/images/products/322/982/078/7008/front_fr.58.400.jpg",
+            "name": "Lait d'amande calcium",
+            "url": "https://fr.openfoodfacts.org/produit/3229820787008/lait-d-amande-calcium-bjorg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Promocash Carrefour,Auchan,Leclerc,Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/371/006/5783/nutrition_fr.79.400.jpg",
+            "n_grade": "NC",
+            "category": "Chocolats en poudre",
+            "img": "https://static.openfoodfacts.org/images/products/303/371/006/5783/front_fr.48.400.jpg",
+            "name": "Le Chocolat Fin et Savoureux",
+            "url": "https://fr.openfoodfacts.org/produit/3033710065783/le-chocolat-fin-et-savoureux-nestle"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Carrefour,Cora,Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/303/321/4004/nutrition_fr.56.400.jpg",
             "n_grade": "C",
+            "category": "Chocolats en poudre",
+            "img": "https://static.openfoodfacts.org/images/products/761/303/321/4004/front_fr.25.400.jpg",
+            "name": "Nesquik goût Extra Choco",
+            "url": "https://fr.openfoodfacts.org/produit/7613033214004/nesquik-gout-extra-choco-nestle"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Cora,Carrefour Market",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/762/221/028/8912/nutrition_fr.50.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/762/221/028/8912/front_fr.66.400.jpg",
+            "name": "Grand Arôme ",
+            "url": "https://fr.openfoodfacts.org/produit/7622210288912/grand-arome-32-cacao-poulain"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Milenium",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/544/900/000/9500/nutrition_fr.60.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/544/900/000/9500/front_fr.44.400.jpg",
+            "name": "Coca-Cola cherry",
+            "url": "https://fr.openfoodfacts.org/produit/5449000009500/coca-cola-cherry-the-coca-cola-company"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Magasins U,auchan",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/312/448/018/3828/nutrition_fr.60.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/312/448/018/3828/front_fr.80.400.jpg",
+            "name": "Tropical",
+            "url": "https://fr.openfoodfacts.org/produit/3124480183828/tropical-oasis"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/762/221/028/8257/nutrition_fr.28.400.jpg",
+            "n_grade": "NC",
+            "category": "Chocolats en poudre",
+            "img": "https://static.openfoodfacts.org/images/products/762/221/028/8257/front_fr.59.400.jpg",
+            "name": "Grand Arôme",
+            "url": "https://fr.openfoodfacts.org/produit/7622210288257/grand-arome-poulain"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Auchan",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/318/228/005/6445/nutrition_fr.9.400.jpg",
+            "n_grade": "B",
+            "category": "Jus de fruits au lait",
+            "img": "https://static.openfoodfacts.org/images/products/318/228/005/6445/front_fr.7.400.jpg",
+            "name": "Orange Banane Fraise",
+            "url": "https://fr.openfoodfacts.org/produit/3182280056445/orange-banane-fraise-danao"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/500/011/260/9684/nutrition_fr.63.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/500/011/260/9684/front_fr.30.400.jpg",
+            "name": "Coca-Cola",
+            "url": "https://fr.openfoodfacts.org/produit/5000112609684/coca-cola"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "carrefour city, Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/447/000/3107/nutrition_fr.38.400.jpg",
+            "n_grade": "NC",
+            "category": "Boissons non sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/303/447/000/3107/front_fr.58.400.jpg",
+            "name": "Benco original",
+            "url": "https://fr.openfoodfacts.org/produit/3034470003107/benco-original"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Carrefour,Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/544/900/005/4227/nutrition_fr.103.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/544/900/005/4227/front_fr.101.400.jpg",
+            "name": "Coca-Cola",
+            "url": "https://fr.openfoodfacts.org/produit/5449000054227/coca-cola"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/544/900/021/4911/nutrition_fr.16.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/544/900/021/4911/front_fr.63.400.jpg",
+            "name": "Coca-cola",
+            "url": "https://fr.openfoodfacts.org/produit/5449000214911/coca-cola"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "",
+            "img_nutrition": "Non renseigné",
+            "n_grade": "NC",
+            "category": "Boissons chaudes instantanées",
+            "img": "https://static.openfoodfacts.org/images/products/761/210/005/4963/front_fr.3.400.jpg",
+            "name": "Ovomaltine - 400 g",
+            "url": "https://fr.openfoodfacts.org/produit/7612100054963/ovomaltine-400-g"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Auchan",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/500/011/252/3157/nutrition_fr.13.400.jpg",
+            "n_grade": "E",
+            "category": "en:sodas-au-cola",
+            "img": "https://static.openfoodfacts.org/images/products/500/011/252/3157/front_fr.15.400.jpg",
+            "name": "Coca-Cola",
+            "url": "https://fr.openfoodfacts.org/produit/5000112523157/coca-cola"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Intermarché",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/371/007/0145/nutrition_fr.10.400.jpg",
+            "n_grade": "NC",
+            "category": "Boissons chaudes",
+            "img": "https://static.openfoodfacts.org/images/products/303/371/007/0145/front_fr.18.400.jpg",
+            "name": "Lion",
+            "url": "https://fr.openfoodfacts.org/produit/3033710070145/lion-nestle"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
             "store": "Franprix, Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/419/0204/nutrition_fr.8.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038354190204/sauce-provencale-aux-tomates-fraiches-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/366/060/300/0172/front_fr.12.400.jpg",
-            "name": "Sauce Béarnaise",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/366/060/300/0172/nutrition_fr.14.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3660603000172/sauce-bearnaise-benedicta"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/20257798/front_fr.14.400.jpg",
-            "name": "Vinaigrette legere",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Lidl",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/20257798/nutrition_fr.16.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/20257798/vinaigrette-legere-kania"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/872/270/013/9201/front_fr.32.400.jpg",
-            "name": "Moutarde douce",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/872/270/013/9201/nutrition_fr.19.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8722700139201/moutarde-douce-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/325/054/191/2592/front_fr.32.400.jpg",
-            "name": "Moutarde de Dijon fine et forte",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/054/191/2592/nutrition_fr.21.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3250541912592/moutarde-de-dijon-fine-et-forte-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/303/835/419/9603/front_fr.58.400.jpg",
-            "name": "Pesto au basilic frais",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Leclerc",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/835/419/9603/nutrition_fr.46.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3038354199603/pesto-au-basilic-frais-panzani"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/872/270/020/2387/front_fr.5.400.jpg",
-            "name": "Moutarde fine & douce",
-            "category": [
-                "en:groceries"
-            ],
-            "n_grade": "D",
-            "store": "Magasins U",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/872/270/020/2387/nutrition_fr.23.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/8722700202387/moutarde-fine-douce-amora"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/400/235/935/1105/front_fr.37.400.jpg",
-            "name": "Sauce soja",
-            "category": [
-                "Epicerie"
-            ],
-            "n_grade": "C",
-            "store": "",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/400/235/935/1105/nutrition_fr.18.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/4002359351105/sauce-soja-suzi-wan"
-        }
-    },
-    {
-        "model": "quality.product",
-        "fields": {
-            "img": "https://static.openfoodfacts.org/images/products/325/054/660/6267/front_fr.8.400.jpg",
-            "name": "Mayonnaise de Dijon",
-            "category": [
-                "en:groceries"
-            ],
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/324/976/000/0654/nutrition_fr.30.400.jpg",
             "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/324/976/000/0654/front_fr.26.400.jpg",
+            "name": "Orangina 1",
+            "url": "https://fr.openfoodfacts.org/produit/3249760000654/orangina-1-5l"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "LECLERC, Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/370/027/840/0881/nutrition_fr.21.400.jpg",
+            "n_grade": "E",
+            "category": " en:beverages",
+            "img": "https://static.openfoodfacts.org/images/products/370/027/840/0881/front_fr.15.400.jpg",
+            "name": "Poudre instantanée Banania",
+            "url": "https://fr.openfoodfacts.org/produit/3700278400881/poudre-instantanee-banania"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/303/447/000/3114/nutrition_fr.56.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/303/447/000/3114/front_fr.44.400.jpg",
+            "name": "Benco",
+            "url": "https://fr.openfoodfacts.org/produit/3034470003114/benco-banania"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/317/478/000/0363/nutrition_fr.117.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/317/478/000/0363/front_fr.115.400.jpg",
+            "name": "Coca-Cola",
+            "url": "https://fr.openfoodfacts.org/produit/3174780000363/coca-cola"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/210/006/6317/nutrition_fr.47.400.jpg",
+            "n_grade": "E",
+            "category": " en:beverages",
+            "img": "https://static.openfoodfacts.org/images/products/761/210/006/6317/front_fr.64.400.jpg",
+            "name": "Ovomaltine",
+            "url": "https://fr.openfoodfacts.org/produit/7612100066317/ovomaltine"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Cora,Leclerc, Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/312/448/018/5112/nutrition_fr.46.400.jpg",
+            "n_grade": "D",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/312/448/018/5112/front_fr.43.400.jpg",
+            "name": "Thé infusé glacé",
+            "url": "https://fr.openfoodfacts.org/produit/3124480185112/the-infuse-glace-the-noir-parfum-peche-blanche-may-tea"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Auchan",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/322/982/011/1995/nutrition_fr.18.400.jpg",
+            "n_grade": "A",
+            "category": "Laits de soja à la vanille",
+            "img": "https://static.openfoodfacts.org/images/products/322/982/011/1995/front_fr.6.400.jpg",
+            "name": "Soja Vanille Bio",
+            "url": "https://fr.openfoodfacts.org/produit/3229820111995/soja-vanille-bio-bjorg"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Carrefour market, Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/544/900/010/9255/nutrition_fr.11.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/544/900/010/9255/front_fr.8.400.jpg",
+            "name": "Coca Cola Cherry",
+            "url": "https://fr.openfoodfacts.org/produit/5449000109255/coca-cola-cherry"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/303/363/5205/nutrition_de.9.400.jpg",
+            "n_grade": "B",
+            "category": "Produits lyophilisés à reconstituer",
+            "img": "https://static.openfoodfacts.org/images/products/761/303/363/5205/front_de.3.400.jpg",
+            "name": "Nesquik",
+            "url": "https://fr.openfoodfacts.org/produit/7613033635205/nesquik-nestle"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Distributeur automatique,Auchan",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/544/900/001/4535/nutrition_fr.34.400.jpg",
+            "n_grade": "C",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/544/900/001/4535/front_fr.48.400.jpg",
+            "name": "Sprite",
+            "url": "https://fr.openfoodfacts.org/produit/5449000014535/sprite"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Auchan,Carrefour,Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/309/271/100/0100/nutrition_fr.69.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/309/271/100/0100/front_fr.38.400.jpg",
+            "name": "Sirop de Citron",
+            "url": "https://fr.openfoodfacts.org/produit/3092711000100/sirop-de-citron-teisseire"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/544/900/000/6004/nutrition_fr.23.400.jpg",
+            "n_grade": "E",
+            "category": "Bebidas azucaradas",
+            "img": "https://static.openfoodfacts.org/images/products/544/900/000/6004/front_fr.63.400.jpg",
+            "name": "Fanta citron frappé",
+            "url": "https://fr.openfoodfacts.org/produit/5449000006004/fanta-citron-frappe"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Lidl",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/20002961/nutrition_fr.23.400.jpg",
+            "n_grade": "NC",
+            "category": "Chocolats en poudre",
+            "img": "https://static.openfoodfacts.org/images/products/20002961/front_fr.47.400.jpg",
+            "name": "Cacao Island",
+            "url": "https://fr.openfoodfacts.org/produit/20002961/cacao-island-lidl"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/312/448/016/7026/nutrition_fr.17.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/312/448/016/7026/front_fr.49.400.jpg",
+            "name": "Orangina",
+            "url": "https://fr.openfoodfacts.org/produit/3124480167026/orangina"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Asda",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/54491014/nutrition_fr.66.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/54491014/front_fr.64.400.jpg",
+            "name": "Coca Cola",
+            "url": "https://fr.openfoodfacts.org/produit/54491014/coca-cola"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Cora, Magasins U",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/312/448/018/5129/nutrition_fr.8.400.jpg",
+            "n_grade": "D",
+            "category": "Thés glacés saveur menthe",
+            "img": "https://static.openfoodfacts.org/images/products/312/448/018/5129/front_fr.70.400.jpg",
+            "name": "Thé vert infusé glacé saveur Menthe",
+            "url": "https://fr.openfoodfacts.org/produit/3124480185129/the-vert-infuse-glace-saveur-menthe-may-tea"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Banque alimentaire",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/312/448/020/3632/nutrition_fr.22.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons à l'orange",
+            "img": "https://static.openfoodfacts.org/images/products/312/448/020/3632/front_fr.20.400.jpg",
+            "name": "Orange",
+            "url": "https://fr.openfoodfacts.org/produit/3124480203632/orange-oasis"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
             "store": "Carrefour",
-            "img_nutrition": "https://static.openfoodfacts.org/images/products/325/054/660/6267/nutrition_fr.19.400.jpg",
-            "url": "https://fr.openfoodfacts.org/produit/3250546606267/mayonnaise-de-dijon-amora"
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/312/448/000/2570/nutrition_fr.28.400.jpg",
+            "n_grade": "D",
+            "category": "Sodas",
+            "img": "https://static.openfoodfacts.org/images/products/312/448/000/2570/front_fr.6.400.jpg",
+            "name": "Schweppes",
+            "url": "https://fr.openfoodfacts.org/produit/3124480002570/schweppes"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Le Mixt'",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/312/448/018/2708/nutrition_fr.17.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/312/448/018/2708/front_fr.23.400.jpg",
+            "name": "Tropical",
+            "url": "https://fr.openfoodfacts.org/produit/3124480182708/tropical-oasis"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "netto",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/312/448/021/7912/nutrition_fr.20.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/312/448/021/7912/front_fr.14.400.jpg",
+            "name": "Tropical",
+            "url": "https://fr.openfoodfacts.org/produit/3124480217912/tropical-oasis"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Cora",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/544/900/000/0439/nutrition_fr.73.400.jpg",
+            "n_grade": "E",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/544/900/000/0439/front_fr.92.400.jpg",
+            "name": "Coca Cola",
+            "url": "https://fr.openfoodfacts.org/produit/5449000000439/coca-cola"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Cora",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/54492790/nutrition_fr.33.400.jpg",
+            "n_grade": "E",
+            "category": " en:beverages",
+            "img": "https://static.openfoodfacts.org/images/products/54492790/front_fr.77.400.jpg",
+            "name": "Coca Cola Cherry",
+            "url": "https://fr.openfoodfacts.org/produit/54492790/coca-cola-cherry"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/761/303/256/2526/nutrition_fr.81.400.jpg",
+            "n_grade": "B",
+            "category": "Boissons sucrées",
+            "img": "https://static.openfoodfacts.org/images/products/761/303/256/2526/front_fr.79.400.jpg",
+            "name": "Nesquik",
+            "url": "https://fr.openfoodfacts.org/produit/7613032562526/nesquik-nestle"
+        }
+    },
+    {
+        "model": "quality.product",
+        "fields": {
+            "store": "Carrefour,Netto",
+            "img_nutrition": "https://static.openfoodfacts.org/images/products/406/080/010/0252/nutrition_fr.46.400.jpg",
+            "n_grade": "E",
+            "category": " en:beverages",
+            "img": "https://static.openfoodfacts.org/images/products/406/080/010/0252/front_fr.37.400.jpg",
+            "name": "Soda",
+            "url": "https://fr.openfoodfacts.org/produit/4060800100252/soda-pepsi"
         }
     }
 ]
